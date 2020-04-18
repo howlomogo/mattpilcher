@@ -1,0 +1,71 @@
+.navbar-nav {
+	.nav-item {
+		a.nav-link {
+			font-family: 'Lato', sans-serif;
+			font-weight: bold;
+			color: #ffffff;
+			font-size: 0.85rem;
+			padding: 1.5rem 1.25rem;
+		    -webkit-transition: color 0.5s;
+		    transition: color 0.5s;
+		    letter-spacing: 2;
+
+			@media (max-width: 992px) {
+				text-align: center;	
+			}
+		}
+		&:last-child {
+			a.nav-link {
+				@media (min-width: 992px) {
+					padding-right: 0px !important;
+				}
+			}
+		}
+	}
+}
+
+.navbar-toggler {
+	border: none;
+	cursor: pointer;
+	outline: none !important;
+}
+
+.ion-navicon {
+	color: #ffffff;
+	font-size:32px;
+}
+
+.navbar--container {
+	position: absolute;
+	z-index:1;
+	width: 100%;
+	// background-color: #ffffff;
+	// box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar--container-dark {
+	position: absolute;
+	z-index:1;
+	width: 100%;
+	background-color: $color--dark-blue;
+	// box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar-toggler {
+	top: 16px;
+
+	@media (max-width:576px) {
+		top: 8px;
+	}
+}
+
+.navbar-brand {
+	img {
+		width: 200px;
+	}
+	@media (max-width:576px) {
+		img {
+			width: 140px;
+		}
+	}
+}
