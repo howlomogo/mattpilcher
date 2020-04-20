@@ -1,16 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Matt Pilcher - Front End Developer`,
+    description: `Matt Pilcher - Front End Developer & Designer based in Portsmouth, UK.`,
+    author: `Matt Pilcher`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
+      },
+    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
+        name: `images2`,
         path: `${__dirname}/src/images`,
       },
     },

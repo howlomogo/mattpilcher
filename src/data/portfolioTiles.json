@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Cottage Getaways",
+    "description": "Website created for a fictitious holiday cottage website with searchable cottages. Created using AngularJS 1.6, Pug, Sass, Javascript, JQuery &amp; Bootstrap 4.",
+    "image": "../images/portfolio/cottage-getaways-mockup.png",
+    "completionDate": "June 2017",
+    "hideTag": "games",
+    "link": "./sites/cottage-getaways"
+  },
+  {
+    "title": "Home Renovations",
+    "description": "The homepage created for the fictitious company Home Renovation. Created using Pug, Sass, Javascript, JQuery &amp; Bootstrap 4.",
+    "image": "../images/portfolio/home-renovations-mockup.png",
+    "completionDate": "May 2017",
+    "hideTag": "games",
+    "link": "./sites/home-renovations"
+  },
+  {
+    "title": "The Veg Box",
+    "description": "The homepage created for the fictitious company The Veg Box. Created using Pug, Sass, Javascript, JQuery &amp; Bootstrap 4.",
+    "image": "../images/portfolio/the-veg-box-mockup.png",
+    "completionDate": "May 2017",
+    "hideTag": "games",
+    "link": "./sites/thevegbox"
+  },
+  {
+    "title": "Kingmakers Winery",
+    "description": "The homepage created for the fictitious company Kingmakers Winery. Created using Pug, Sass, Javascript, JQuery &amp; Inuit css.",
+    "image": "../images/portfolio/kingmakers-mockup.png",
+    "completionDate": "May 2017",
+    "hideTag": "games",
+    "link": "./sites/kingmakers"
+  },
+  {
+    "title": "Arko",
+    "description": "The homepage created for the fictitious company Arko. Created using Pug, Sass, Javascript, Angular, JQuery &amp; Inuit css.",
+    "image": "../images/portfolio/arko-mockup.png",
+    "completionDate": "Mar 2017",
+    "hideTag": "games",
+    "link": "./sites/arko"
+  },
+  {
+    "title": "Fitness Gym",
+    "description": "A website created for a fictitious gym. Created using HTML, Sass, Javascript, jQuery &amp; Bootstrap.",
+    "image": "../images/portfolio/fitness-gym-mockup.png",
+    "completionDate": "Apr 2015",
+    "hideTag": "games",
+    "link": "./sites/fitness-gym"
+  },
+  {
+    "title": "The Beach Hut",
+    "description": "A one page website created for a fictitious restaurant. Created using HTML, CSS, Javascript, jQuery &amp; Bootstrap.",
+    "image": "../images/portfolio/the-beach-hut-mockup.png",
+    "completionDate": "Mar 2015",
+    "hideTag": "games",
+    "link": "./sites/the-beach-hut"
+  },
+  {
+    "title": "Dvd Flix",
+    "description": "A website created for a fictitious dvd store. Created using PHP, SQL, MySQL, HTML, CSS, Javascript &amp; Bootstrap.",
+    "image": "../images/portfolio/dvd-flix-mockup.png",
+    "completionDate": "Mar 2015",
+    "hideTag": "games",
+    "link": "./sites/dvd-flix"
+  },
+  {
+    "title": "Oscars Revenge",
+    "description": "Help Oscar travel through over 40 levels in this challenging platformer, avoiding deathly obstacles and dangerous enemies.",
+    "image": "../images/portfolio/oscars-revenge-mockup.png",
+    "completionDate": "N/A",
+    "hideTag": "web",
+    "link": "/projects/oscarsrevenge.html"
+  },
+  {
+    "title": "Nightmare Kid",
+    "description": "Nightmare Kid is a fast paced shooter where you use a mixture of upgrades and strategy to repel the ever increasing number of monsters and ghouls.",
+    "image": "../images/portfolio/nightmare-kid-mockup.png",
+    "completionDate": "N/A",
+    "hideTag": "web",
+    "link": "/projects/nightmarekid.html"
+  },
+  {
+    "title": "Zybrds",
+    "description": "Zybyrds is a shooter game where you need to kill a certain amount of birds each wave in order to continue to the next level.",
+    "image": "../images/portfolio/zybyrds-mockup.png",
+    "completionDate": "N/A",
+    "hideTag": "web",
+    "link": "/projects/zybyrds.html"
+  }
+]
