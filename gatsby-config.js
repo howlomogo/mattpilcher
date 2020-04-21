@@ -10,23 +10,17 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/data/`,
+        path: `${__dirname}/src/`, // You can put for example src/images, src/data etc
       },
     },
     `gatsby-plugin-sass`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images2`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`, // Adds allMarkdownRemark and markDownRemaek (To get markdown file data)
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-manifest`, // Look for logo
       options: {
-        name: `gatsby-starter-default`,
+        name: `mattpilcher.co.uk`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

@@ -11,7 +11,7 @@ export const PortfolioTiles = (props) => {
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 300) {
+              fluid(maxWidth: 460, quality: 65) {
                 ...GatsbyImageSharpFluid
               }
             }

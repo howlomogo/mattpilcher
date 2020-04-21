@@ -1,28 +1,16 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import { connect } from 'react-redux'
-
-import { reducer1 } from '../state/actions/'
-import Footer from '../components/Footer.js'
-import Navigation from '../components/Navigation.js'
-import Seo from '../components/Seo'
-import '../scss/main.scss'
 import classNames from 'classnames'
-import PortfolioTile from '../components/PortfolioTile'
-import { PortfolioTiles } from "../components/PortfolioTiles"
 
-// // images
-// import CottageGetAwaysMockup from '../images/portfolio/cottage-getaways-mockup.png'
-// import HomeRenovationsMockup from '../images/portfolio/home-renovations-mockup.png'
-// import TheVegBoxMockup from '../images/portfolio/the-veg-box-mockup.png'
-// import KingMakersMockUp from '../images/portfolio/kingmakers-mockup.png'
-// import ArkoMockup from '../images/portfolio/arko-mockup.png'
-// import FitnessGymMockUp from '../images/portfolio/fitness-gym-mockup.png'
-// import TheBeachHutMockup from '../images/portfolio/the-beach-hut-mockup.png'
-// import DvdFlixMockUp from '../images/portfolio/dvd-flix-mockup.png'
-// import OscarsRevengeMockUp from '../images/portfolio/oscars-revenge-mockup.png'
-// import NightmareKidMockUp from '../images/portfolio/nightmare-kid-mockup.png'
-// import ZybyrdsMockUp from '../images/portfolio/zybyrds-mockup.png'
+import { reducer1 } from '../../state/actions/'
+
+import Seo from '../../components/Seo'
+import Navigation from '../../components/Navigation.js'
+import { PortfolioTiles } from "../../components/PortfolioTiles"
+import Footer from '../../components/Footer.js'
+
+import '../../scss/main.scss'
 
 
 class Portfolio extends Component {
@@ -35,8 +23,8 @@ class Portfolio extends Component {
           <div className='container'>
             <div className='row text-center'>
               <div className='col-md-12'>
-                <h2 className='mb-3'>
-                  PORTFOLIO
+                <h2 className='mb-3 text-uppercase'>
+                  Portfolio
                 </h2>
                 <hr className='hr-dashed--dark mb-3' />
                 <p className='mb-3'>Below is a selection of my work, my commerical work is not shown, however I have completed a number of personal projects which I am able to list here.</p>
