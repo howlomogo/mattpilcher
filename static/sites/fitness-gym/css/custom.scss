@@ -1,0 +1,899 @@
+/* GLOBAL STYLES */ /*----------------------------------------------------------------------*/
+
+$fontcolor1:#000;
+
+$color1:#ffffff; // Nav font color - button font color - Dark Grey Headers color - White background color
+$color2:#202020; // White BG Headers color / dark BG color
+$color3:#777; // white background paragraph color
+
+$color4:#BBB; // h1 Subtext color
+$color5:#888; // PARAGRAPH COLOR FOR DARK BG
+
+$color6:#323232; // PINK - button color - features color
+
+$color7: #DB325A; // another offset primary color to compliment the other primary color - can be used for btns other fonts tabs etc ?
+
+
+body {
+	color:$fontcolor1;
+}
+
+html,
+body {
+    height: 100%;
+}
+/* Todo - I am quickly getting this in to get an idea of colors, this will be changed though */
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	/* container colors full width */
+	&.color1 {
+		background-color: $color1;
+
+		h5 {
+			color: $color3;
+		}
+	}
+	&.color2 {
+		background-color: $color2;
+		color: $color1;
+	}
+	&.color6 {
+		background-color: $color6;
+		color: $color1;
+	}
+}
+
+/* The container at the top of the page, add the navigation height to lower the div */
+.topcontainer {
+	margin-top: 106px; /*Size of the navigation */
+}
+
+.container {
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+/* Header of the containers with section title and sub text */
+header {
+	h1 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	h5 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+}
+
+/* Add a margin to the right of the glyicon */
+li, p {
+	.glyphicon {
+		top: 2px; /* Add a pixel to the top to center it a little bit, is a quick fix */
+		margin-right: 10px;
+	}
+}
+
+/* GLOBAL STYLES END */ /*----------------------------------------------------------------------*/
+
+
+/* INDEX PAGE */ /*----------------------------------------------------------------------*/
+
+
+/*---------------------------------------*/
+
+/* Recent News */
+.homerecentnews {
+	.recentnews {
+		padding: 20px 60px 20px 0px;
+
+		p {
+			color:$color3;
+		}
+
+		.leftcolumn {
+			text-align: center;
+			padding: 10px 0px 0px 0px;
+			img {
+				width: 70%;
+			}
+		}
+
+		.rightcolumn {
+			h4 {
+				margin-bottom: 5px;
+			}
+
+			.blogger {
+				margin-bottom: 15px;
+				color: $color7;
+			}
+		}
+	}
+
+	.openingtimes {
+
+		.fa-circle {
+			position:absolute;
+			top:12px;
+			font-size: 16px;
+			margin-left: 20px;
+		}
+
+		h2{
+			margin-bottom: 20px;
+		}
+
+		h4 {
+			margin-bottom: 5px;
+		}
+
+		p {
+			margin-bottom: 15px;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.openingtimes {
+			text-align: center;
+			margin-top: 20px;
+
+			.fa-circle {
+				top:30px;
+			}
+		}
+
+		.contactushome {
+			text-align: center;
+		}
+	}
+
+	.contactushome {
+		h2 {
+			padding-top: 15px;
+			margin-bottom: 20px;
+		}
+
+		li {
+			margin: 5px 0px 5px;
+		}
+
+		a {
+			color: $color7;
+			cursor: pointer;
+			text-decoration: none;
+		}
+	}
+
+}
+/* Recent News */
+
+/*---------------------------------------*/
+
+/* Upcoming Classes */
+.upcomingcontainer {
+	background-color: $color1;
+	text-align: center;
+	margin:0 auto;
+
+	.upcomingtop {
+		img {
+			width: 100%;
+		}
+	}
+
+	.upcomingmiddle {
+		background-color: $color7;
+		color: $color1;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.upcomingbottom {
+		background-color: $color1;
+		color: $color2;
+		p {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+}
+// This should only be applied to the bottom two containers but its not vital
+@media screen and (max-width: 991px) {
+	.upcomingcontainer {
+		margin-bottom: 30px;
+	}
+}
+/* Upcoming Classes */
+
+/* INDEX PAGE END */ /*----------------------------------------------------------------------*/
+
+
+/* CLASSES & TRAINERS PAGE */ /*----------------------------------------------------------------------*/
+
+/* Classes Top Left Section */
+
+.classeslefttop {
+	margin-bottom: 30px;
+	background-color: $color2;
+
+
+	
+	/* Trainer Image */
+	.leftcolumn {
+		padding: 0;
+
+		img {
+			width: 100%;
+		}
+	}
+	/* Trainer & Class text */
+	.rightcolumn {
+		color: $color1;
+		padding: 15px 20px 15px 20px;
+
+		h4 {
+			margin-bottom: 5px;
+		}
+
+		.trainer {
+			margin-bottom: 10px;
+			color: $color4;
+		}
+
+		.socialmediaicons {
+			margin-top: 20px;
+			ul {
+		   list-style-type: none;
+		   margin: 0;
+			}
+
+			li {
+			   display: inline;
+			   a {
+			   	width: 50px;
+			   	color: $color1;
+			   }
+			   a:hover {
+			   	color: $color7;
+			   	text-decoration: none;
+			   	cursor: pointer;
+			   }
+			}
+		}
+	}
+}
+
+/* Classes Top Left Section End*/
+
+/* Classes Bottom Left Section */
+
+.classesleftbottom {
+	/* Class Header */
+	.toprow {
+		background-color: $color2;
+		color: $color1;
+		padding: 30px 20px 30px;
+	}
+
+	/* Class Description */
+	.middlerow {
+		background-color: $color7;
+		color: $color1;
+		padding: 30px 20px 30px;
+	}
+
+	/* Class Times Date etc */
+	.bottomrow {
+		background-color: $color2;
+		color: $color1;
+		padding: 15px 20px 15px;
+
+		span {
+			color: $color7;
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.classesleftbottom {
+		margin-bottom: 30px;
+	}
+}
+
+/* Classes Bottom Left Section End*/
+
+
+/* Classes Riht Panels Section */
+.panel { /* PANEL BODY TEXT */
+   margin-bottom: 20px;
+   background-color: $color7; /* Panel content color */
+   color: $color1;
+   border: none;
+   border-radius: 0px;
+  	box-shadow: none;
+   font-family: 'Oswald', sans-serif; font-weight: 300;
+   font-size: 18px;
+}
+
+.panel-default > .panel-heading {
+	color: $color1;
+  	background-color: $color2;
+  	border: none;
+}
+
+.panel-title a { // h4 style panel headers 300 font weight looks nicer
+	font-size: 20px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.panel-group .panel {
+  border-radius: 0px;
+}
+
+/* Remove border between Head and Body content */
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+  border:none;
+}
+
+.classesrightpanel {
+	.btn {
+		background-color:$color2;
+		color:$color1;
+		margin-top:20px;
+	}
+}
+
+// Remove the left and right padding when the tabs are collapsed
+@media screen and (max-width: 991px) {
+	.classesrightpanel {
+		padding: 0px;
+	}
+}
+
+
+.classnavdiv {
+}
+.classnavactive {
+}
+
+#class1-content {
+	opacity: 0;
+	display: none;
+}
+
+#class2-content {
+	opacity: 0;
+	display: none;
+}
+
+#class3-content {
+	opacity: 0;
+	display: none;
+}
+
+#class4-content {
+	opacity: 0;
+	display: none;
+}
+
+#class5-content {
+	opacity: 0;
+	display: none;
+}
+
+/* Classes Right Panels Section  END*/
+
+
+/*---------------------------------------*/
+
+/* Meet Your Trainers Section */
+.trainerscontainer {
+	text-align: center;
+	margin:0 auto;
+
+	.trainerstop {
+
+		cursor: pointer;
+		position: relative; // Make relative so trainersanimation can fit 100% inside it.
+
+		img {
+			width: 100%;
+		}
+
+		.trainersanimation {
+			position: absolute;
+			background-color: $color7;
+			z-index: 10;
+			height: 100%;
+			width: 100%;
+			opacity: 0.7;
+		}
+
+    	span {
+    		position: absolute;
+			z-index: 30;
+			top: 50%;
+    		left: 50%;
+    		margin-right: -50%;
+    		transform: translate(-50%, -50%);
+    		opacity: 0;
+    		color:$color1;
+    	}
+	}
+
+	.trainersmiddle {
+		background-color: $color2;
+		color: $color1;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		.trainer {
+			color: $color4;
+		}
+	}
+
+	.trainersbottom {
+		background-color: $color1;
+		color: $color2;
+
+		ul {
+		   list-style-type: none;
+		   padding: 10px 0 15px;
+		}
+
+		li {
+			display: inline;
+			a {
+			   width: 50px;
+			   color: $color2;
+			}
+			a:hover {
+				color: $color7;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+	}
+}
+// Trainer modal content
+.modal-content {
+	color: $color2;
+}
+
+// This should only be applied to the bottom two containers but its not vital
+@media screen and (max-width: 991px) {
+	.trainerscontainer {
+		margin-bottom: 30px;
+	}
+}
+/* Meet Your Trainers Section  End */
+
+/* CLASSES & TRAINERS PAGE END */ /*----------------------------------------------------------------------*/
+
+
+/* PRICING PAGE */ /*----------------------------------------------------------------------*/
+
+/* PRICING & PLANS */
+.pricingplans {
+	.pricingcontainer {
+
+		text-align: center;
+		margin:0 auto;
+		width: 90%;
+
+		.pricingtop {
+			background-color: $color7;
+			color: $color1;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		.pricingbottom {
+			background-color: $color2;
+			color: $color1;
+
+			hr {
+				width: 80%;
+				margin: 0 auto;
+				border-color: $color4;
+			}
+
+			p {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
+
+			.btn {
+				margin: 15px 0 15px;
+			}
+		}
+	}
+
+	// Give the container a set width?, i could just add a margin. At this point the jQuery is probably pointless to include. so maybe do not use the jquery when the screen is this size.
+	@media screen and (max-width: 767px) {
+		.pricingcontainer {
+			width: 400px;
+			margin-bottom: 30px;
+		}
+	}
+}
+/* PRICING & PLANS END*/
+
+/* OTHER PLANS */
+.pricingcontent {
+	background-color: $color1;
+	color: $color2;
+	padding: 30px 20% 50px;
+	margin: 0px;
+	hr {
+		margin:10px 15px 20px;
+	}
+
+	p {
+		line-height: 2em;
+	}
+}
+
+.nav-tabs.nav-justified {
+	border-radius: 0px;
+	background-color: $color2;
+	border: none;
+}
+
+.nav-tabs.nav-justified > li > a {
+	border: none;
+	border-radius: 0px;
+	color: $color1;
+}
+
+// Remove the bottom margin on the tabs collapsed when the device is lower than 767
+@media screen and (max-width: 767px) {
+	.nav-tabs.nav-justified > li > a {
+		margin: 0px;
+	}
+}
+
+.nav-tabs.nav-justified > li > a:hover {
+	border: none;
+	border-radius: 0px;
+	color: $color2;
+	background-color: $color1;
+}
+
+.nav-tabs.nav-justified > .active > a {
+	border-radius: 0px;
+	background-color: $color7;
+	color: $color1;
+	border: none;
+}
+
+.nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+	border-radius: 0px;
+	background-color: $color7;
+	color: $color1;
+	border: none;
+}
+
+/* OTHER PLANS */
+
+/* PRICING PAGE END */ /*----------------------------------------------------------------------*/
+
+
+/* TIMETABLE PAGE */ /*----------------------------------------------------------------------*/
+
+.timetabletoprow {
+	margin-bottom: 30px;
+	text-align: center;
+
+	.btn {
+		margin-right: 5px;
+		margin-left: 5px;
+		background-color: $color2;
+	}
+
+	.btn:hover {
+		background-color: $color4;
+	}
+
+	.activefilter {
+		background-color: $color7;
+		color: $color1;
+	}
+	.activefilter:hover {
+		background-color: $color7;
+	}
+}
+
+.table {
+	color: $color1;
+	background-color: $color2;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #000;
+}
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+	border:2px solid #000;
+}
+
+.table > tbody > tr > th {
+	border:2px solid #000;
+}
+
+.cellfull {
+	background-color: $color7;
+	color: $color1;
+}
+
+/* TIMETABLE PAGE END */ /*----------------------------------------------------------------------*/
+
+
+/* CONTACT PAGE */ /*----------------------------------------------------------------------*/
+
+/* Contact Us Page */
+.contactus {
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	.leftcolumn {
+		padding:0 50px;
+	}
+
+	@media screen and (max-width: 991px) {
+		.leftcolumn {
+			margin-bottom: 60px;
+		}
+	}
+
+	.rightcolumn {
+
+		padding:0 50px;
+
+		.contacts {
+			p {
+				color:$color3;
+			}
+
+		}
+
+		.contactinfo {
+			h2 {
+				margin-top: 30px;
+			}
+
+			a {
+				color: $color7;
+			}
+		}
+
+		.socialmedia {
+			h2 {
+				margin-top: 30px;
+			}
+
+			background-color: $color1;
+			color: $color2;
+
+			ul {
+			   list-style-type: none;
+			   padding: 10px 0 10px;
+			}
+
+			li {
+				display: inline;
+				a {
+				   width: 50px;
+				   color: $color2;
+				}
+				a:hover {
+					color: $color7;
+					text-decoration: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+/* Contact Us Page End */
+
+/* Contact Form */
+.form-group {
+	textarea {
+		height: 200px;
+	}
+
+	input {
+		width: 300px;
+	}
+}
+
+/* Map */
+#googlemap{
+	width: 100%;
+	height: 400px;
+	background-color: $color1;
+}
+/* Map END */
+
+/* CONTACT PAGE END */ /*----------------------------------------------------------------------*/
+
+
+
+/* HOME PAGE SUCCESS STORIES */
+
+
+/* END HOME PAGE SUCCESS STORIES */
+
+
+
+
+/* carousel */
+// Main wrapper for carousel all elements are childs of this
+
+
+
+
+
+
+
+
+#myCarousel {
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+&.carousel,
+.item {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+
+
+.carouselallcontent {
+	position: absolute;
+	top:25%;
+	right:15%;
+	left: 55%;
+	z-index: 10;
+
+	.carouselheader {
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 20px;
+		color: $color1;
+	   text-align: left;
+	   margin-bottom: 20px;
+
+		h1 {
+			color: $color1;
+		}
+
+		h3 {
+			color: $color1;
+			font-weight: 300;
+			margin-top: 5px;
+		}
+	}
+
+	.carouselcontent {
+		background-color: rgba(0, 0, 0, 0.8);
+	   padding: 20px;
+	   color: #FFF;
+	   text-align: left;
+	   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+	   margin-bottom: 20px;
+	}
+
+	.carouselbtn {
+	   text-align: left;
+	}
+}
+}
+
+
+/* END HOME CAROUSEL */
+
+
+
+
+#successcarousel {
+
+.fill {
+    height: 100%;
+    img {
+    	height: 100%;
+    	width: 50%;
+    }
+}
+
+&.carousel,
+.item {
+	//height: 400px;
+}
+
+.carousel-inner {
+	//height: 100%;
+}
+
+.carouselallcontent {
+	background-color: $color2;
+	padding: 30px;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:50%;
+	right: 0;
+	z-index: 10;
+
+	.carouselheader {
+	   text-align: left;
+	   margin-bottom: 20px;
+	   background-color: $color2;
+
+		h1 {
+			color: $color1;
+		}
+
+		h3 {
+			color: $color1;
+			font-weight: 300;
+			margin-top: 5px;
+		}
+	}
+
+	.carouselcontent {
+		//background-color: $color2;
+		//opacity: 0.7;
+	   //padding: 20px;
+	   padding-top: 10px;
+	   padding-bottom: 10px;
+	   margin-right: 50px;
+	   color: #FFF;
+	   text-align: left;
+	   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+	   margin-bottom: 20px;
+	}
+
+	@media screen and (max-width: 991px) {
+		.carouselcontent {
+			display: none;
+		}
+	}
+
+	.carouselbtn {
+	   text-align: left;
+	}
+}
+
+.carousel-indicators {
+  position: absolute;
+  left:0;
+  top:0;
+  padding-top:10px;
+
+  z-index: 15;
+  width: 100px;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none;
+}
+}
+

@@ -1,0 +1,379 @@
+$fontcolor1:#000;
+
+$color1:#ffffff; // Nav font color - button font color - Dark Grey Headers color
+$color2:#202020; // White BG Headers color / dark BG color
+$color3:#777; // white background paragraph color
+
+$color4:#BBB; // h1 Subtext color
+$color5:#888; // PARAGRAPH COLOR - Dark Grey BG
+
+$color6:#323232; // PINK - button color - features color
+
+$color7: #DB325A; // another offset primary color to compliment the other primary color - can be used for btns other fonts tabs etc ?
+
+
+
+
+/* List of test colours for the main primary color replacing the reddy one
+E25050 -- Initil pinky color
+26a7e2 - Light bluy color same as the logo
+51b642 - Green color sme as the logo
+
+
+#323232 - Grey background from sportslife
+DB325A - Pink background from sportslife
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif; font-weight: 400;
+	//font-family: 'Raleway', sans-serif; font-weight: 400;
+	font-size: 18px;
+}
+
+p,a,li {
+		//font-family: 'Raleway', sans-serif; font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	//font-family: 'Open Sans', sans-serif; font-weight: 400;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+table {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+
+	th {
+		font-weight: 400;
+		text-align: center;
+	}
+}
+
+::-webkit-input-placeholder {
+   font-family: 'Oswald', sans-serif; font-weight: 300;
+	font-size: 18px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Oswald', sans-serif; font-weight: 300;
+	font-size: 18px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Oswald', sans-serif; font-weight: 300;
+	font-size: 18px; 
+}
+
+:-ms-input-placeholder {  
+   font-family: 'Oswald', sans-serif; font-weight: 300;
+	font-size: 18px;  
+}
+
+hr {
+	margin: 0;
+	padding:0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+p, li, a {
+	//font-size: 1.1em;
+	font-size:18px;
+}
+
+/* Main title for page sections */
+h1 {
+	font-family: 'Oswald', sans-serif; font-weight: 400;
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+// Carousel sub header
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+/* Sub text for Main titles on page sections THIS SHOULD BE THE ONLY h5 TAGS */
+h5 {
+	font-family: 'Oswald', sans-serif; font-weight: 300;
+	font-size: 18px;
+}
+
+h6 {
+	//font-size: 16px;
+		font-size: 18px;
+
+}
+
+/* Form Styles */
+.btn {
+	border-radius: 0;
+	font-size: 18px;
+	padding:10px 20px 10px;
+	//font-family: 'Raleway', sans-serif; font-weight: 400;
+	font-family: 'Oswald', sans-serif; font-weight: 300;
+
+	border:none;
+	background-color: $color7;
+	color: $color1;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:active {
+	outline: none;
+}
+
+
+.form-control {
+	border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: $color7;
+    outline: 0px none;
+    box-shadow: none;
+}
+
+textarea {
+	resize:none;
+}
+
+
+/* NAVIGATION */
+.navbar {
+	margin-bottom: 0px;
+	background-color: $color2;
+
+	.container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.navbar-nav li a {
+ line-height: 30px;
+ border:none;
+ font-weight: 400;
+ font-size: 16px;
+ color: $color4;
+}
+
+.navbar-nav li a:hover {
+ background-color: $color2;
+ color: $color7;
+}
+
+
+/* Animate collapse */
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+  height: 60px;
+
+	 &.largenavlink {
+
+	}
+
+	&.smallnavlink {
+		padding-top:0px;
+		padding-bottom: 0px;
+		margin:0px;
+		height: 40px;
+		line-height: 40px;
+	}
+}
+
+.largenavimg {
+	height:60px
+}
+
+.smallnavimg {
+	height: 40px;
+}
+
+// Affects whole nav
+.smallnav {
+}
+
+.largenav {
+}
+
+/* Animate Collapse */
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  color: $color1;
+  background-color: $color2;
+}
+
+.navbar-toggle { 
+  margin-top: 13px; // 60px img height, - 34px, this height = 26 / 2 13
+  margin-right: 20px;
+  background-color: $color7;
+  border-radius: 0px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: $color2;
+}
+
+// The collapsed navbar dropdown when page is less than 767px
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+	.navbar-header {
+		img {
+			margin-left: 20px;
+		}
+	}
+}
+
+
+/* NAVIGATION */
+
+
+
+
+/* FOOTER */
+footer {
+
+	h4{
+		margin-bottom: 20px;
+	}
+	p {
+		color: $color4;
+	}
+
+	.openinghours {
+		border-color: $color4;
+		height: 200px; // Set height of 200px so when collapsed the rows align properlys
+		hr {
+			margin: 8px 0 8px;
+		}
+		// The time i.e. 8:00 - 10:00
+		.pull-right {
+			font-weight: 400;
+			color: $color1;
+		}
+
+		.timeicon {
+			color: $color7;
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) { // col-md
+		.openinghours {
+			padding-right:0px; // make it 0px so all the text can fit
+		}
+	}
+
+
+
+	.twitter {
+		height: 200px; // Set height of 200px so when collapsed the rows align properlys
+
+	}
+
+
+	.contactinfo {
+		height: 200px; // Set height of 200px so when collapsed the rows align properlys
+
+		ul {
+		   list-style-type: none;
+		   margin: 0;
+		   padding: 0 15px;
+		}
+
+		li {
+		   display: inline;
+		   a {
+		   	width: 50px;
+		   	color: $color1;
+		   }
+		   a:hover {
+		   	color: $color7;
+		   	text-decoration: none;
+		   	cursor: pointer;
+		   }
+		}
+
+		a {
+			color: $color7;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.socialmediaicons {
+			margin-top: 20px;
+		}
+	}
+
+
+	.newsletter {
+		height: 200px; // Set height of 200px so when collapsed the rows align properlys
+
+		.input-group {
+			margin-top: 20px;
+		}
+
+		input {
+			height: 46px; /* Height of GO! btn */
+			border:1px solid #000;
+			background-color: #000;
+			color: $color1;
+		}
+
+		.form-control:focus {
+		    border-color: $color7;
+		    outline: 0px none;
+		    box-shadow: none;
+		}
+	}
+}
+/* FOOTER */

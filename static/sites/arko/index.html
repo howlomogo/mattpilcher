@@ -1,0 +1,143 @@
+
+<html data-ng-app="app">
+  <head><!DOCTYPE 5>
+    <meta charset="utf-8"/>
+    <title>Arko</title>
+    <meta name="description" content="arko"/>
+    <meta name="author" content="Matthew Pilcher"/><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="vendor/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  </head>
+  <body data-ng-controller="appcontroller">
+    <div class="overlay" id="navigation">
+      <div class="overlay-content"><a class="navigation-animation navigation-animation--1" href="#">Home</a><a class="navigation-animation navigation-animation--2" href="#">About</a><a class="navigation-animation navigation-animation--3" href="#">Projects</a><a class="navigation-animation navigation-animation--4" href="#">Blog</a><a class="navigation-animation navigation-animation--5" href="#">Contact</a></div>
+    </div><a class="nav--logo" href="#Banner">
+      <svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 543 165" style="enable-background:new 0 0 543 165;" xml:space="preserve">
+        <style type="text/css">
+          .st0{fill:#2E2D2C;}
+          .st1{fill:#FFFFFF;}
+        </style>
+        <polygon class="st1" points="14.6,146.6 80.6,17.6 146.6,146.6 "></polygon>
+        <path class="st1" d="M259.5,58.9c0-22.7-17.6-41.3-39.9-42.9v-0.1h-54.6v131.2h54.6h39.7l-25.1-49C249.2,91.3,259.5,76.3,259.5,58.9		z"></path>
+        <polygon class="st1" points="386,15.9 284.7,15.9 284.7,147.1 386,147.1 351,81.1 "></polygon>
+        <circle class="st1" cx="459.4" cy="81.5" r="65.6"></circle>
+      </svg></a>
+    <button class="hamburger hamburger--spin nav--burger" type="button" ng-click="toggleNavigation()"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+    <div full-page="full-page" options="mainOptions">
+      <div class="section--hero-banner section" id="section1" data-anchor="Banner">
+        <div class="o-wrapper u-margin-bottom">
+          <svg class="hero-banner-svg u-margin-bottom-small" id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 543 165" style="enable-background:new 0 0 543 165;" xml:space="preserve">
+            <style type="text/css">
+              .st0{fill:#2E2D2C;}
+              .st1{fill:#FFFFFF;}
+            </style>
+            <polygon class="st1 section1-animation--1" points="14.6,146.6 80.6,17.6 146.6,146.6 "></polygon>
+            <path class="st1 section1-animation--2" d="M259.5,58.9c0-22.7-17.6-41.3-39.9-42.9v-0.1h-54.6v131.2h54.6h39.7l-25.1-49C249.2,91.3,259.5,76.3,259.5,58.9						z"></path>
+            <polygon class="st1 section1-animation--3" points="386,15.9 284.7,15.9 284.7,147.1 386,147.1 351,81.1 "></polygon>
+            <circle class="st1 section1-animation--4" cx="459.4" cy="81.5" r="65.6"></circle>
+          </svg><br/>
+          <h1 class="section1-animation--5">We&nbsp;</h1>
+          <h1 class="section1-animation--6">create&nbsp;</h1><br/>
+          <h1 class="section1-animation--7">environments.</h1>
+        </div>
+      </div>
+      <div class="section--about section" id="section2" data-anchor="About">
+        <div class="o-wrapper o-wrapper--large o-wrapper--size-small">
+          <p class="section2-animation--1"><span>ARKO </span>was founded in 1996.</p>
+          <p class="section2-animation--2">Over the last 20 years, we have developed a large portfolio of <span>beautiful </span>and <span>exciting projects. </span>Our projects range from hotels to hospitals, and from housing schemes to offices.</p>
+          <p class="section2-animation--3">We have always taken an <span>eco friendly </span>stance on architecture and we always look into taking advantage of <span>new cutting edge technologies </span>that are available.</p>
+        </div>
+      </div>
+      <div class="section--project-overview section" id="section3" data-anchor="Projects">
+        <h2>Projects</h2>
+        <div class="o-layout o-layout--flush">
+          <div class="o-layout__item u-1/2 u-1/4@tablet"><a class="project-overview--box" href="#Rotterdam" style="background-image: url('img/Rotterdam.jpg');">
+              <div class="project-overview--content">
+                <h4>Schiedam Centre,<br/><span>Rotterdam</span></h4>
+                <div class="ion ion-ios-arrow-down"></div>
+              </div></a></div>
+          <div class="o-layout__item u-1/2 u-1/4@tablet"><a class="project-overview--box" href="#Madrid" style="background-image: url('img/Madrid.jpg');">
+              <div class="project-overview--content">
+                <h4>Construcción de río,<br/><span>Madrid</span></h4>
+                <div class="ion ion-ios-arrow-down"></div>
+              </div></a></div>
+          <div class="o-layout__item u-1/2 u-1/4@tablet"><a class="project-overview--box" href="#London" style="background-image: url('img/London.jpg');">
+              <div class="project-overview--content">
+                <h4>The AVO Centre,<br/><span>London</span></h4>
+                <div class="ion ion-ios-arrow-down"></div>
+              </div></a></div>
+          <div class="o-layout__item u-1/2 u-1/4@tablet"><a class="project-overview--box" href="#Sofia" style="background-image: url('img/Sofia.jpg');">
+              <div class="project-overview--content">
+                <h4>Kutiya,<br/><span>Sofia</span></h4>
+                <div class="ion ion-ios-arrow-down"></div>
+              </div></a></div>
+        </div>
+      </div>
+      <div class="section--rotterdam section" id="section4" data-anchor="Rotterdam">
+        <div class="project-content-box project-content-box--left section4-animation--1">
+          <h5 class="section4-animation--2">Schiedam Centre,<br/><span>Rotterdam</span></h5>
+          <hr class="section4-animation--3"/>
+          <p class="section4-animation--4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut scelerisque felis. Vivamus ornare dolor ut erat ultricies, sed ornare diam sodales. Proin eget elit semper, porttitor est ut, molestie quam. Maecenas laoreet sapien consequat interdum dignissim.</p>
+          <p class="section4-animation--5">In at dolor massa. Nunc aliquam leo id neque ornare mattis. Curabitur ac risus lacus. Nullam sodales pulvinar bibendum. Donec et auctor dolor. Aliquam eu ante nibh. Sed at lobortis sem. Sed et quam id massa sollicitudin condimentum at ac massa.</p>
+          <p class="section4-animation--6">Fusce viverra urna sit amet nisi vulputate euismod. Aliquam elit nulla, porttitor eget pharetra eget, egestas quis lacus.</p>
+        </div>
+      </div>
+      <div class="section--madrid section" id="section5" data-anchor="Madrid">
+        <div class="project-content-box project-content-box--right section5-animation--1">
+          <h5 class="section5-animation--2">Construcción de río,<br/><span>Madrid</span></h5>
+          <hr class="section5-animation--3"/>
+          <p class="section5-animation--4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut scelerisque felis.</p>
+          <p class="section5-animation--5">Vivamus ornare dolor ut erat ultricies, sed ornare diam sodales. Proin eget elit semper, porttitor est ut, molestie quam. Maecenas laoreet sapien consequat interdum dignissim. In at dolor massa. Nunc aliquam leo id neque ornare mattis.</p>
+          <p class="section5-animation--6">Curabitur ac risus lacus. Nullam sodales pulvinar bibendum. Donec et auctor dolor. Aliquam eu ante nibh. Sed at lobortis sem.</p>
+        </div>
+      </div>
+      <div class="section--london section" id="section6" data-anchor="London">
+        <div class="project-content-box project-content-box--left section6-animation--1">
+          <h5 class="section6-animation--2">The AVO Centre,<br/><span>London</span></h5>
+          <hr class="section6-animation--3"/>
+          <p class="section6-animation--4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut scelerisque felis. Vivamus ornare dolor ut erat ultricies, sed ornare diam sodales. Proin eget elit semper, porttitor est ut, molestie quam. Maecenas laoreet sapien consequat interdum dignissim.</p>
+        </div>
+      </div>
+      <div class="section--sofia section" id="section7" data-anchor="Sofia">
+        <div class="project-content-box project-content-box--right section7-animation--1">
+          <h5 class="section7-animation--2">Kutiya,<br/><span>Sofia</span></h5>
+          <hr class="section7-animation--3"/>
+          <p class="section7-animation--4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut scelerisque felis. Vivamus ornare dolor ut erat ultricies, sed ornare diam sodales.</p>
+          <p class="section7-animation--5">Proin eget elit semper, porttitor est ut, molestie quam. Maecenas laoreet sapien consequat interdum dignissim. In at dolor massa. Nunc aliquam leo id neque ornare mattis. Curabitur ac risus lacus.</p>
+          <p class="section7-animation--6">Nullam sodales pulvinar bibendum.</p>
+        </div>
+      </div>
+      <div class="section--footer section" id="section8" data-anchor="Footer">
+        <div class="o-wrapper">
+          <ul class="u-margin-bottom-large">
+            <li><a class="u-inline-block" href="#">Home</a></li>
+            <li><a class="u-inline-block" href="#">About</a></li>
+            <li><a class="u-inline-block" href="#">Projects</a></li>
+            <li><a class="u-inline-block" href="#">Blog</a></li>
+            <li><a class="u-inline-block" href="#">Contact</a></li>
+          </ul><a class="email-details" href="mailto:info@arkoarch.com" target="_blank">info@arkoarch.com</a>
+          <hr class="section8-animation--1"/>
+          <div class="o-layout u-margin-bottom-large">
+            <div class="o-layout__item u-text-align--right u-1/2">
+              <p class="u-margin-bottom-none">12 Notastreet</p>
+              <p class="u-margin-bottom-none">SE1 5SS</p>
+            </div>
+            <div class="o-layout__item u-text-align--left u-1/2">
+              <p class="u-margin-bottom-none">Bermondsey</p>
+              <p class="u-margin-bottom-none">London</p>
+            </div>
+          </div>
+          <p class="copywrite">Copywrite of ARKO Architecture</p>
+        </div>
+      </div>
+      <script src="vendor/angular.min.js"></script>
+      <script src="vendor/jquery.js"></script>
+      <script src="vendor/jquery.fullPage.js"></script>
+      <script src="vendor/angular-fullpage.min.js"></script>
+      <script src="js/app.js"></script>
+    </div>
+  </body>
+</html>

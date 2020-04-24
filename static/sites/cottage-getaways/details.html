@@ -1,0 +1,118 @@
+
+<section class="mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="details--main">
+          <div class="row mb-2">
+            <div class="col-md-12 col-lg-8">
+              <h4 class="mb-1 cottage-name color--500">{{ cottage.name }}</h4>
+              <h6 class="cottage-town">{{ cottage.town }}, {{ cottage.county }}</h6>
+            </div>
+            <div class="col-md-12 col-lg-4 text-center">
+              <h6 class="mt-1">Customer Rating</h6><span class="ion ion-star d-inline-block" ng-repeat="i in getRating(cottage.rating) track by $index"></span>
+            </div>
+          </div>
+          <div class="mb-2" style="height: 60px; overflow: hidden;">
+            <p>Lorem ipsum dolor sit amet, per veniam alterum invenire ei, pri solet everti in. An sit soleat splendide tincidunt, volumus delectus pri ei. Eu mei appetere comprehensam. Sea ei liberavisse necessitatibus. Vis possit albucius vituperatoribus ex, nam ut meis repudiandae. Vel et habeo alienum.</p>
+            <p>Vis nihil voluptua et, no sit quidam feugait. Vix ei sale dicunt prompta, ei omnis incorrupte vituperatoribus qui, eu mei delenit dolorum definitiones. No vidisse iuvaret nominavi cum. Mel delicata reprehendunt no, choro soleat gloriatur ei eam, probo incorrupte ex duo. Verear accommodare qui no.</p>
+            <p>Ut munere voluptatum eos, nam ne ludus volumus moderatius, an est saepe eruditi. Id vivendo explicari mea. Te sed soluta eleifend. Tale noluisse ullamcorper ut duo. Purto vide denique est te, quo wisi possit id, eu sint habemus expetendis ius. Eu pri laudem perpetua consulatu, vix id ubique neglegentur. Vix ut semper luptatum molestiae, nam in magna paulo voluptatibus.</p>
+          </div>
+          <div class="mb-3"><a class="read--more" ng-click="scrollTo('detailsabout')"><span class="mr-1">Read More</span><span class="ion ion-chevron-right"></span></a></div>
+          <hr class="mb-4 mt-0"/>
+          <div class="row text-center">
+            <div class="col-6">
+              <h6>Sleeps</h6>
+              <h4>{{ cottage.sleeps }}</h4>
+            </div>
+            <div class="col-6">
+              <h6>Bedrooms</h6>
+              <h4>{{ cottage.bedrooms }}</h4>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 bg--white details--dates mb-2">
+          <div class="row text-center">
+            <div class="col-6">
+              <h6>From</h6>
+              <h5>{{ formatDate(curFilters.dates.dateStart) }}</h5>
+            </div>
+            <div class="col-6">
+              <h6>To</h6>
+              <h5>{{ formatDate(curFilters.dates.dateEnd) }}</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <hr class="mb-2 mt-0"/>
+            </div>
+          </div>
+          <div class="row align-items-center text-center">
+            <div class="col-md-12">
+              <h4 class="mb-0 results--price">£ {{ cottage.cost * curFilters.nights }}</h4>
+              <p class="font--small mb-2" style="margin-bottom: 4px;">For {{ curFilters.nights }} nights</p>
+              <button class="btn">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="carousel slide mb-2" id="carousel" data-ride="carousel">
+          <div class="carousel-inner mb-2" role="listbox">
+            <div class="carousel-item active">
+              <div style="width:100%; padding-top: 61.111111%; position: relative; background-image: url('assets/{{cottage.image}}'); background-size: cover;"></div>
+            </div>
+            <div class="carousel-item" ng-repeat="image in cottage.images track by $index">
+              <div style="width:100%; padding-top: 61.111111%; position: relative; background-image: url('assets/detail-imgs/{{image}}'); background-size: cover;"></div>
+            </div><span class="carousel-control-prev carousel-control" href="#carousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></span><span class="carousel-control-next carousel-control" href="#carousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></span>
+          </div>
+          <ul class="carousel-indicators list-inline">
+            <li class="list-inline-item active" data-slide-to="0" data-target="#carousel"><a><img class="img-fluid" ng-src="assets/{{cottage.image}}"/></a></li>
+            <li class="list-inline-item" ng-repeat="image in cottage.images track by $index" data-slide-to="{{$index + 1}}" data-target="#carousel"><a><img class="img-fluid" ng-src="assets/detail-imgs/{{image}}"/></a></li>
+          </ul>
+        </div>
+        <div class="bg--white details--features mb-2">
+          <div class="row">
+            <div class="col-lg-4 col-12">
+              <p><span class="ion mr-1" ng-class="cottage.features.pets ? 'ion-checkmark' : 'ion-close'"></span>Pets Allowed</p>
+              <p><span class="ion mr-1" ng-class="cottage.features.wifi ? 'ion-checkmark' : 'ion-close'"></span>Wifi</p>
+            </div>
+            <div class="col-lg-4 col-12">
+              <p><span class="ion mr-1" ng-class="cottage.features.swimming ? 'ion-checkmark' : 'ion-close'"></span>Swimming Pool</p>
+              <p><span class="ion mr-1" ng-class="cottage.features.washing ? 'ion-checkmark' : 'ion-close'"></span>Washing Machine</p>
+            </div>
+            <div class="col-lg-4 col-12">
+              <p><span class="ion mr-1" ng-class="cottage.features.fireplace ? 'ion-checkmark' : 'ion-close'"></span>Fireplace</p>
+              <p><span class="ion mr-1" ng-class="cottage.features.hottub ? 'ion-checkmark' : 'ion-close'"></span>Hot Tub</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="detailsabout">
+      <div class="col-md-12">
+        <div class="details--about">
+          <h3>About {{ cottage.name }}</h3>
+          <hr class="hr hr--left"/>
+          <p>Lorem ipsum dolor sit amet, per veniam alterum invenire ei, pri solet everti in. An sit soleat splendide tincidunt, volumus delectus pri ei. Eu mei appetere comprehensam. Sea ei liberavisse necessitatibus. Vis possit albucius vituperatoribus ex, nam ut meis repudiandae. Vel et habeo alienum.</p>
+          <p>Vis nihil voluptua et, no sit quidam feugait. Vix ei sale dicunt prompta, ei omnis incorrupte vituperatoribus qui, eu mei delenit dolorum definitiones. No vidisse iuvaret nominavi cum. Mel delicata reprehendunt no, choro soleat gloriatur ei eam, probo incorrupte ex duo. Verear accommodare qui no.</p>
+          <p>Ut munere voluptatum eos, nam ne ludus volumus moderatius, an est saepe eruditi. Id vivendo explicari mea. Te sed soluta eleifend. Tale noluisse ullamcorper ut duo. Purto vide denique est te, quo wisi possit id, eu sint habemus expetendis ius. Eu pri laudem perpetua consulatu, vix id ubique neglegentur. Vix ut semper luptatum molestiae, nam in magna paulo voluptatibus.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      $('.carousel').carousel({
+      	interval: 5000,
+      	pause: "hover",
+      	wrap: true
+      })
+      .on('click', '.carousel-control', handle_nav);
+      
+      var handle_nav = function(e) {
+      	e.preventDefault();
+      	var nav = $(this);
+      	nav.parents('.carousel').carousel(nav.data('slide'));
+      }
+    </script>
+  </div>
+</section>

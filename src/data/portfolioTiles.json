@@ -5,7 +5,7 @@
     "image": "../images/portfolio/cottage-getaways-mockup.png",
     "completionDate": "June 2017",
     "hideTag": "games",
-    "link": "./sites/cottage-getaways"
+    "link": "/sites/cottage-getaways"
   },
   {
     "title": "Home Renovations",
@@ -13,7 +13,7 @@
     "image": "../images/portfolio/home-renovations-mockup.png",
     "completionDate": "May 2017",
     "hideTag": "games",
-    "link": "./sites/home-renovations"
+    "link": "/sites/renovation"
   },
   {
     "title": "The Veg Box",
@@ -21,7 +21,7 @@
     "image": "../images/portfolio/the-veg-box-mockup.png",
     "completionDate": "May 2017",
     "hideTag": "games",
-    "link": "./sites/thevegbox"
+    "link": "/sites/the-veg-box"
   },
   {
     "title": "Kingmakers Winery",
@@ -29,7 +29,7 @@
     "image": "../images/portfolio/kingmakers-mockup.png",
     "completionDate": "May 2017",
     "hideTag": "games",
-    "link": "./sites/kingmakers"
+    "link": "/sites/kingmakers-wine"
   },
   {
     "title": "Arko",
@@ -37,7 +37,7 @@
     "image": "../images/portfolio/arko-mockup.png",
     "completionDate": "Mar 2017",
     "hideTag": "games",
-    "link": "./sites/arko"
+    "link": "/sites/arko/"
   },
   {
     "title": "Fitness Gym",
@@ -45,7 +45,7 @@
     "image": "../images/portfolio/fitness-gym-mockup.png",
     "completionDate": "Apr 2015",
     "hideTag": "games",
-    "link": "./sites/fitness-gym"
+    "link": "/sites/fitness-gym"
   },
   {
     "title": "The Beach Hut",
@@ -53,7 +53,7 @@
     "image": "../images/portfolio/the-beach-hut-mockup.png",
     "completionDate": "Mar 2015",
     "hideTag": "games",
-    "link": "./sites/the-beach-hut"
+    "link": "/sites/the-beach-hut"
   },
   {
     "title": "Dvd Flix",
@@ -61,7 +61,7 @@
     "image": "../images/portfolio/dvd-flix-mockup.png",
     "completionDate": "Mar 2015",
     "hideTag": "games",
-    "link": "./sites/dvd-flix"
+    "link": ""
   },
   {
     "title": "Oscars Revenge",

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>
+		Fitness Gym - Home
+	</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="js/navresize.js"></script>
+
+
+	<!-- Create a googlemap -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('googlemap');
+        var myLatlng = new google.maps.LatLng(50.790741, -1.0820365);
+
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 14,
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+        		  var marker = new google.maps.Marker({
+		      position: myLatlng,
+		      map: map,
+		      title: 'Fitness Gym - We are located here'
+		  });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+</head>
+<body>
+	<nav class="navbar largenav navbar-fixed-top">
+	    <div class="container">
+	      <div class="navbar-header">
+          <a href="index.html" class="pull-left"><img class="navimg largenavimg" src="img/logo.png"></a>
+	      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  	       	<span class="sr-only">Toggle navigation</span>
+  	       	<span class="icon-bar"></span>
+  	       	<span class="icon-bar"></span>
+          	<span class="icon-bar"></span>
+	       	</button>
+	      </div>
+	      <div id="navbar" class="navbar-collapse collapse">
+				<ul class='nav navbar-nav navbar-right'>
+              <li><a class="navlink largenavlink" href='index.html'>HOME</a></li>
+              <li><a class='navlink largenavlink' href='classes.html'>CLASSES &amp; TRAINERS</a></li>
+              <li><a class=" navlink largenavlink" href='timetable.html'>TIMETABLE</a></li>
+              <li><a class="navlink largenavlink" href='pricing.html'>PRICING</a></li>
+               <li class='active'><a class="navlink largenavlink" href='contact.html'>CONTACT US</a></li>
+            </ul>
+	      </div>
+	    </div>
+  	</nav>
+
+
+  	<section class="container-fluid topcontainer color1">
+		<div class="container">
+			<header class="row">
+				<h1>CONTACT US</h1>
+
+				<h5>Please feel free to send us a message. We'd love to hear from you!</h5>
+			</header>
+
+			<section class="row contactus">
+				<div class="col-md-6 leftcolumn">
+					<h2>Leave a Message</h2>
+					<form>
+					  	<div class="form-group">
+					    	<input type="email" class="form-control" placeholder="Enter email">
+					  	</div>
+					  	<div class="form-group">
+					    <input type="password" class="form-control" placeholder="Password">
+					  	</div>
+					  	<div class="form-group">
+							<textarea class="form-control" placeholder="Please Enter Your Message..." rows="3"></textarea>
+					  	</div>
+					  	<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+				<div class="col-md-6 rightcolumn">
+					<div class="contacts">
+						<h2>Contacts</h2>
+						<p>Lorem ipsum dolor sit amet, velit pericula et eam, et cum harum omittantur eloquentiam. Ad nusquam molestie dissentias vim. Cu duo agam dicunt tractatos. Mei eu vidit sententiae argumentum, sit iisque fuisset eu.</p>
+					</div>
+
+					<div class="contactinfo">
+						<h2>Contact Info</h2>
+						<ul>
+							<li><span class="glyphicon glyphicon-home"></span>99 St Davids Road, Portsmouth, PO6 1QW</li>
+							<li><span class="glyphicon glyphicon-phone"></span>02392 123456</li>
+							<li><span class="glyphicon glyphicon-envelope"></span><a>info@fitnessgym.co.uk</a></li>
+						</ul>
+					</div>
+
+					<div class="socialmedia">
+						<h2>Social</h2>
+						<ul>
+							<li><a class="fa fa-twitter fa-lg"></a></li>
+							<li><a class="fa fa-facebook fa-lg"></a></li>
+							<li><a class="fa fa-envelope-o fa-lg"></a></li>
+							<li><a class="fa fa-google fa-lg"></a></li>
+							<li><a class="fa fa-instagram fa-lg"></a></li>
+							<li><a class="fa fa-pinterest-p fa-lg"></a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section> <!-- /Contact fluid -->
+
+	<section class="container-fluid"> <!-- Map -->
+		<div id="googlemap"></div> 
+	</section>
+
+	<!-- Footer Classes -->
+	<footer class="container-fluid color2">
+		<div class="container">
+			<section class="row">
+				<div class="col-md-3 col-sm-6 openinghours">
+					<h4>Opening Hours</h4>
+					<hr />
+					<p><span class="glyphicon glyphicon-time timeicon"></span>Monday - Friday<span class="pull-right">08:00 - 22:00</span></p>
+					<hr />
+					<p><span class="glyphicon glyphicon-time timeicon"></span>Monday - Friday<span class="pull-right">08:00 - 22:00</span></p>
+					<hr />
+					<p><span class="glyphicon glyphicon-time timeicon"></span>Monday - Friday<span class="pull-right">08:00 - 22:00</span></p>
+					<hr />					
+				</div> <!-- /Single Event -->
+				<div class="col-md-3 col-sm-6 twitter">
+					<h4>Twitter</h4>
+					<div class="row">
+
+
+						<div class="col-md-2 col-sm-2">
+							<p><span class="fa fa-twitter fa-2x"></span>
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+						</div>
+
+						</div>	
+				</div> <!-- /Single Event -->
+				<div class="col-md-3 col-sm-6 contactinfo">
+					<h4>Contact Info</h4>
+					<p>99 St Davids Road, Southsea, Portsmouth, PO6 1QW</p>
+					<p><span style="font-weight:400; color:#fff;">Phone:</span> 02392 123456</p>
+					<p><span style="font-weight:400; color:#fff;">Email:</span> <a>info@fitnessgym.co.uk</a></p>
+					<div class="row socialmediaicons">
+							<ul>
+								<li><a class="fa fa-twitter fa-2x"></a></li>
+								<li><a class="fa fa-facebook fa-2x"></a></li>
+								<li><a class="fa fa-google fa-2x"></a></li>
+								<li><a class="fa fa-linkedin fa-2x"></a></li>
+							</ul>
+					</div>	
+				</div> <!-- /Single Event -->
+				<div class="col-md-3 col-sm-6 newsletter">
+
+					<h4>Newsletter</h4>
+					<p>Please check out our latest newsletter.</p>
+					<div class="input-group">
+				      <input type="text" class="form-control" placeholder="Search for...">
+				      <span class="input-group-btn">
+				        <button class="btn btn-default" type="button">GO!</button>
+				      </span>
+				    </div><!-- /input-group -->
+				</div> <!-- /Single Event -->
+			</section>
+		</div>
+	</footer> <!-- /Container fluid -->
+
+
+</body>
+</html>

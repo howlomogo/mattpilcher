@@ -38,11 +38,11 @@ class About extends Component {
                   <h3 className='mb-3'>Front End Developer &amp; Designer</h3>
                   <hr className='hr-dashed--light mb-5' />
                 </div>
-                <a className='animated fadeIn' href='/portfolio.html'>
+                <Link className='animated fadeIn' to='/portfolio'>
                   <button className='btn inverted text-uppercase'>
                     View My Work
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -211,9 +211,14 @@ class About extends Component {
                   <h4 className='mb-1'>T: <span>+44(0)7954 588390</span></h4>
                   <h4 className='mb-4'>E: <span>mattpilcher87@gmail.com</span></h4>
                 </div>
-                <div className='mb-4 wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}}><a className='social-link' href='https://github.com/howlomogo' target='_blank'>
-                    <div className='ion ion-social-github'></div></a><a className='social-link' href='https://www.linkedin.com/in/matthew-pilcher-7350894a/' target='_blank'>
-                    <div className='ion ion-social-linkedin'></div></a></div>
+                <div className='mb-4 wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}}>
+                  <a className='social-link' href='https://github.com/howlomogo' target='_blank'>
+                    <div className='ion ion-social-github' />
+                  </a>
+                  <a className='social-link' href='https://www.linkedin.com/in/matthew-pilcher-7350894a/' target='_blank'>
+                    <div className='ion ion-social-linkedin' />
+                  </a>
+                </div>
               </div>
               <div className='col-md-6'>
                 <form className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}} method='post' action='sendmail.php'>

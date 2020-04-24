@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Navigation from '../components/Navigation.js'
 import Seo from "../components/Seo"
 import Footer from '../components/Footer.js'
+import '../scss/main.scss'
 
 export default ({ data }) => {
   return (

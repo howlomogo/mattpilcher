@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>The Beach Hut 2</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+        <script src="jqueryfunctions.js"></script>
+
+
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      	<div class="nav-logo">
+          <img src="img/logo.png" width="340">
+      	</div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar thenavbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="navigationfont" href="#home">HOME</a></li>
+            <li><a class="navigationfont" href="#about">ABOUT US</a></li>
+            <li id="#test1"><a class="navigationfont" href="#events">EVENTS</a></li>
+            <li><a class="navigationfont" href="#menu">MENU</a></li>
+            <li><a class="navigationfont" href="#contact">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div id="home" class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+
+		    </ol>
+			<div class="carousel-inner" role="listbox">
+		    	<div class="item active">
+			    	<img src="img/carosel-1.jpg" alt="First slide">
+          			<div class="container">
+            			<div class="carousel-caption topcaption">
+            				<h1 class="carouselheader">Great Food Made By Great Chefs</h1>
+              				<h1 class= "carouselsubheader">The Beach Hut offers a great range of food available from 3 course dinners to tasty lunch time meals.</h1>
+            			</div>
+            			<div class="carousel-caption bottomcaption">
+              				<p><a class="btn btn-lg btn-primary" href="#menu" role="button">MENU</a></p>
+            			</div>
+          			</div>
+			    </div>
+
+			    <div class="item">
+			    	<img src="img/carosel-2.jpg" alt="First slide">
+          			<div class="container">
+            			<div class="carousel-caption topcaption">
+            				<h1 class="carouselheader">Dine With Incredible Views</h1>
+              				<h1 class= "carouselsubheader">The Beach Hut is located on the beautiful south coast right by the sea and enjoys a great atmosphere.</h1>
+            			</div>
+            			<div class="carousel-caption bottomcaption">
+              				<p><a class="btn btn-lg btn-primary" href="#contact" role="button">CONTACT US</a></p>
+            			</div>
+          			</div>
+			    </div>
+
+			    <div class="item">
+			    	<img src="img/carosel-3.jpg" alt="First slide">
+          			<div class="container">
+            			<div class="carousel-caption topcaption">
+            				<h1 class="carouselheader">Always Something Fun Going On</h1>
+              				<h1 class= "carouselsubheader">Whether your into live music or chilled out quiz nights the beach hut has a range of events every week.</h1>
+            			</div>
+            			<div class="carousel-caption bottomcaption">
+              				<p><a class="btn btn-lg btn-primary" href="#events" role="button">EVENTS</a></p>
+            			</div>
+          			</div>
+			    </div>
+
+			    <!--
+			    <div class="item">
+			        <img src="img/carosel-1.jpg" alt="Second slide">
+			    </div>
+
+			    <div class="item">
+			        <img src="img/carosel-1.jpg" alt="Second slide">
+			    </div>
+				-->
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div id="about" style="padding-top:50px; padding-bottom:50px;" class="container-fluid"> <!-- About Section -->
+		<div class="container">
+			<div class="row alignrowmid">
+				<div class="col-md-8 aligncolmid">
+					<div style="padding:0px 30px 0px; text-align:center; width:100%;">
+						<h3 style="text-align:center;" class="pageheaders">ABOUT US</h3>
+						<hr class="faded" style="margin: 15px auto 20px; width:40%;">
+						<p class="aboutfont">The Beach Hut is a made up company for use in the portfolio of www.howlomogo.co.uk, it is a simple website made using various languages.</p>
+
+						<p class="aboutfont">The site has a one page design made from scratch using bootstrap, and contains various custom JQuery functions for effects.</p>
+
+						<p class="aboutfont">The following technologies have been used in the creation of this website JQuery, Javascript, HTML, CSS &amp; Bootstrap.</p>
+
+						<p class="aboutfont">Some of the links intentionally do not work and are only for show, if you have any questions you can contact me at mattpilcher87@gmail.com.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 aligncolmid">
+					<img style="width:100%;" src="img/about.png">
+				</div>
+			</div>
+		</div>
+	</div> <!-- /About Section -->
+
+	<div id="events" class="container-fluid"> <!-- Whole Events Section -->
+		<div class="container-fluid imagebackground" style="text-align:center;"> <!-- Image Section -->
+			<h1 class="imagetext sloganfade">Friendly Staff, Great Atmosphere</h1>
+			<img class="boxshadow" style="width:100%;" src="img/indoor.jpg">
+		</div> <!-- /Image Section -->
+
+		<div style="padding-top:50px; padding-bottom:50px; background-color:#fff; color:#333;" class="container-fluid"> <!-- Opening Times Section -->
+			<div class="container">
+				<h3 class="pageheaders" style="text-align:center;">OPENING TIMES &amp; EVENTS</h3>
+				<hr class="faded" style="margin: 15px auto 20px; width:30%;">
+				
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:right;">
+						<p class="openingtimesleft">Sunday - Thursday:</p>
+						<p class="openingtimesleft">Friday - Saturday:</p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6" style="text-align:left;">
+						<p class="openingtimesright"><i>9.00am - 11.00pm</i></p>
+						<p class="openingtimesright"><i>9.00am - 2.00am</i></p>
+					</div>
+				</div>
+				<hr style="border-top:dashed 2px #000; margin-bottom:0px;" />
+				<div style="margin-bottom:20px;" class="row"> <!-- Remove style from here-->
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<h4 class="eventsleftfont">Live Music<span class="eventsrightfont pull-right">Friday 9pm - 1am</span></h4>
+						<hr style="border-top:dashed 2px #000; margin-bottom:10px; margin-top:10px;" />
+						<div class="outereventsdiv">
+							<div class="eventsimgdiv">
+								<img style="width:100%;" src="img/livemusic.jpg">
+								<div class="eventscaption">
+									<h3>Amazing Music From The Best Local Bands.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<h4 class="eventsleftfont">Quiz Night<span class="eventsrightfont pull-right">Wednesday 7pm - 9pm</span></h4>
+						<hr style="border-top:dashed 2px #000; margin-bottom:10px; margin-top:10px;" />
+						<div class="outereventsdiv">
+							<div class="eventsimgdiv">
+								<img style="width:100%;" src="img/quiznight.jpg">
+								<div class="eventscaption">
+									<h3>Join Us For Our Weekly Quiz Night With Great Prices.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<h4 class="eventsleftfont">Karaoke Night<span class="eventsrightfont pull-right">Saturday 8pm - 12pm</span></h4>
+						<hr style="border-top:dashed 2px #000; margin-bottom:10px; margin-top:10px;" />
+						<div class="outereventsdiv">
+							<div class="eventsimgdiv">
+								<img style="width:100%;" src="img/karaoke.jpg">
+								<div class="eventscaption">
+									<h3>Sing Your Heart Out With Our Karaoke Nights.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /Opening Times Section -->
+	</div> <!-- Whole Events Section -->
+
+	<div id="menu" class="container-fluid"> <!-- Whole Menu Section -->
+		<div class="container-fluid imagebackground" style="text-align:center;"> <!-- Image Section -->
+			<h1 class="imagetext sloganfade">Vegetarian Dishes Available</h1>
+			<img class="boxshadow" style="width:100%;" src="img/morefood.jpg">
+		</div> <!-- /Image Section -->
+
+		<div class="container-fluid" style="padding-top:50px; padding-bottom:50px;"> <!-- Menu Section -->
+			<div class="container">
+				<h3 class="pageheaders" style="text-align:center;">MENU</h3>
+				<hr class="faded" style="margin: 15px auto 20px; width:30%;">
+				<div class="row"> <!-- Headers -->
+					<div class="col-md-6 col-sm-6">
+						<h3 class="menuheaders">Starters &amp; Sides</h3>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<h3 class="menuheaders">Main Courses</h3>
+					</div> 
+				</div> <!-- /Headers -->
+				<hr style="border-top:dashed 2px #666; margin-top:0px;" />
+
+				<div class="row"> <!-- Starters & Sides / Main Courses -->
+					<div class="menulesspadding col-md-6 col-sm-6"> <!-- Starters & Sides -->
+						<div class="row alignrowmid menuitemrow fooditemfade" > <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-1.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Soup Of The Day</h4>
+								<p class="fooddesc">Everyday of the week we have a new flavour of soup so come in and see what we have.</p>
+								<h4 class="menuprice">&pound;3.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-2.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Big Baguette</h4>
+								<p class="fooddesc">We can make any baguette you would like from cheese to beed to mushrooms.</p>
+								<h4 class="menuprice">&pound;6.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+					</div> <!-- /Starters & Sides -->
+
+					<div class="menulesspadding col-md-6 col-sm-6"> <!-- Starters & Sides -->
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/menu-food.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Burger &amp; French Fries</h4>
+								<p class="fooddesc">Beef burger with crispy lettuce and tomatoes. Served with onion rings and french fries.</p>
+								<h4 class="menuprice">&pound;8.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-4.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Lamb &amp; Vegetables</h4>
+								<p class="fooddesc">A amazing piece of lamb served with some of the best vegetables from around the world.</p>
+								<h4 class="menuprice">&pound;11.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+					</div> <!-- /Starters & Sides -->
+				</div> <!-- /Starters & Sides / Main Courses -->
+
+
+				<div class="row"> <!-- Deserts & Drinks Headers -->
+					<div class="col-md-6 col-sm-6">
+						<h3 class="menuheaders">Deserts</h3>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<h3 class="menuheaders">Drinks</h3>
+					</div> 
+				</div> <!-- /Deserts & Drinks Headers -->
+				<hr style="border-top:dashed 2px #666; margin-top:0px;" />
+
+				<div class="row"> <!-- Starters & Sides / Main Courses -->
+					<div class="menulesspadding col-md-6 col-sm-6"> <!-- Starters & Sides -->
+						<div class="row alignrowmid menuitemrow fooditemfade" > <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-5.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Chocolate Cake</h4>
+								<p class="fooddesc">A delicious chocolate cake with fudge, chocolate sauce and strawberrys.</p>
+								<h4 class="menuprice">&pound;2.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-6.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Ice Cream</h4>
+								<p class="fooddesc">Ice cream served with toppings, we have multiple flavours so pick the best one.</p>
+								<h4 class="menuprice">&pound;1.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+					</div> <!-- /Starters & Sides -->
+
+					<div class="menulesspadding col-md-6 col-sm-6"> <!-- Starters & Sides -->
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-7.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Red &amp; White Wine</h4>
+								<p class="fooddesc">We have the best red and white wine from around the world come and drink with us.</p>
+								<h4 class="menuprice">&pound;3.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+
+						<div class="row alignrowmid menuitemrow fooditemfade"> <!-- Food Item Container -->
+							<div style="text-align:center;" class="menulesspadding col-md-4 col-sm-4 aligncolmid"> <!-- Food Imgs -->
+								<img width="90%" src="img/food-8.png">
+							</div> <!-- /Food Imgs -->
+							<div class="menulesspadding col-md-8 col-sm-8 aligncolmid"> <!-- Food Text -->
+								<h4 class="foodtitle">Lager Beer</h4>
+								<p class="fooddesc">We have the best beer from around the world come and drink with us.</p>
+								<h4 class="menuprice">&pound;2.99</h4>
+							</div> <!-- /Food Text -->
+						</div> <!-- /Food Item Container -->
+					</div> <!-- /Starters & Sides -->
+				</div> <!-- /Starters & Sides / Main Courses -->
+			</div>
+		</div> <!-- /Menu Section -->
+	</div> <!-- Whole Menu Section -->
+
+	<div id="contact" class="container-fluid"> <!-- Whole Contact Section -->
+		<div class="container-fluid imagebackground" style="text-align:center;"> <!-- Image Section -->
+			<h1 class="sloganfade imagetext">Feel Free To Get In Touch!</h1>
+			<img class="boxshadow" style="width:100%;" src="img/table.jpg">
+		</div> <!-- /Image Section -->
+
+		<div style="background-color:#fff; color:#666; padding-top:50px; padding-bottom:50px;" class="container-fluid"> <!-- Contact Section -->
+			<div class="container">
+				<h3 class="pageheaders" style="text-align:center;">CONTACT US</h3>
+				<hr class="faded" style="margin: 15px auto 20px; width:30%;">
+				<div class="row alignrowmid" style="margin-top:15px; margin-bottom:15px;"> <!-- remove inline styles -->
+					<div class="col-md-5 aligncolmid">
+						<p class="contactfont">
+						The Beach Hut<br />
+						123 Made Up Road<br />
+						Southsea, Portsmouth<br />
+						PO6 2AG<br />
+						Hampshire<br />
+						England
+						</p>
+
+						<p class="contactfont">
+						<b>Telephone:</b> 02392 123456<br />
+						<b>E-mail:</b> contact@thebeachhut.co.uk
+						</p>
+					</div>
+					<div style="background-color:#fff; width:100%; padding:10px; border: 4px double #cccccc; text-align:center;" class="col-md-7 aligncolmid"> <!-- Google Map -->
+						<iframe width="90%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=PO62AG%2C%20United%20Kingdom&key=AIzaSyBWyADv2SSoFhuciCnNE1wyZfgJlDw6zIo"></iframe> 
+					</div>
+				</div>
+			</div>
+		</div> <!-- /Contact Section -->
+
+		<div style="background-color:#000; color:#fff; text-align:center;" class="container-fluid"> <!-- Footer -->
+			<div class="container">
+				<div class="row" style="margin-top:15px; margin-bottom:15px;"> <!-- remove inline styles -->
+					<h3 style="color:#fff;" class="pageheaders">Join Us On!</h3>
+
+					<div class="social">
+						<img class="socialbtn1" src="img/socialbtns/twitter.png">
+						<img class="socialbtn2" src="img/socialbtns/twitter2.png">
+					</div>
+					<div class="social">
+						<img class="socialbtn1" src="img/socialbtns/facebook.png">
+						<img class="socialbtn2" src="img/socialbtns/facebook2.png">
+					</div>
+					<div class="social">
+						<img class="socialbtn1" src="img/socialbtns/rss.png">
+						<img class="socialbtn2" src="img/socialbtns/rss2.png">
+					</div>
+					<div class="social">
+						<img class="socialbtn1" src="img/socialbtns/contact.png">
+						<img class="socialbtn2" src="img/socialbtns/contact2.png">
+					</div>
+					<p>&copy; 2015 The Beach Hut</p>
+				</div>
+			</div>
+		</div> <!-- /Footer -->
+	</div> <!-- Whole Contact Section ... Include footer within this-->
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+
+<div class="banner">
+  <div class="banner--text">
+    <h1>The Best UK Cottages Avaliable For Holiday Rentals</h1>
+  </div>
+</div>
+<div class="banner--search">
+  <div class="container container-small">
+    <div class="row no-gutters mb-2">
+      <div class="col-sm-3">
+        <div class="select">
+          <select class="banner--input banner--select" ng-model="$root.curFilters.location" ng-options="home.county as home.county for home in properties | unique: 'county'">
+            <option value="">All</option>
+          </select>
+          <div class="select_arrow"></div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="input-group banner--input" moment-picker="$root.curFilters.dates.dateStart" format="YYYY-MM-DD" min-date="$root.curFilters.dates.dateToday" max-date="$root.curFilters.dates.dateEnd" start-view="month" today="true" change="$root.pickerChange()">
+          <input class="banner--date form-control" placeholder="Select a date" ng-model="$root.curFilters.dates.dateStart" ng-model-options="{ updateOn: 'blur' }"/>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="input-group banner--input" moment-picker="$root.curFilters.dates.dateEnd" format="YYYY-MM-DD" start-view="month" min-date="$root.curFilters.dates.dateStart" change="$root.pickerChange()">
+          <input class="banner--date form-control" placeholder="Select a date" ng-model="$root.curFilters.dates.dateEnd" ng-model-options="{ updateOn: 'blur' }"/>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <button class="banner--search-btn btn w-100" ng-click="gotoResults('results')">Search</button>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p>Fill out the form above to view our avaliable holiday cottages</p>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="inspiration-section text-center" id="inspiration">
+  <div class="container container-small">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>INSPIRATION</h3>
+        <hr class="hr"/>
+        <p class="mb-6">Pro ad quis mundi nobis. Eum perfecto pericula delicatissimi et. Ei sint animal complectitur est, dicam verear pri in, pri vitae contentiones ut. Saepe commune gubergren ex his.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row gutter--small">
+      <div class="col-md-6 col-lg-4 gutter--sm">
+        <div class="inspiration--box" style="background-image: url('assets/inspiration/yorkshire.jpg');" ng-click="gotoResults('results', 'yorkshire')">
+          <div class="inspiration--box-text">
+            <h4 class="font-weight-500">DISCOVER</h4>
+            <h4 class="font-weight-300">Yorkshire</h4>
+            <hr class="hr"/>
+            <p>View cottages</p>
+          </div>
+          <div class="inspiration--overlay"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 gutter--sm">
+        <div class="inspiration--box" style="background-image: url('assets/inspiration/relax.jpg');" ng-click="gotoResults('results', null)">
+          <div class="inspiration--box-text">
+            <h4 class="font-weight-500">RELAXING</h4>
+            <h4 class="font-weight-300">Cottages</h4>
+            <hr class="hr"/>
+            <p>View cottages</p>
+          </div>
+          <div class="inspiration--overlay"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 gutter--sm">
+        <div class="inspiration--box" style="background-image: url('assets/inspiration/kent.jpg');" ng-click="gotoResults('results', 'kent')">
+          <div class="inspiration--box-text">
+            <h4 class="font-weight-500">EXPERIENCE</h4>
+            <h4 class="font-weight-300">Kent</h4>
+            <hr class="hr"/>
+            <p>View cottages</p>
+          </div>
+          <div class="inspiration--overlay"></div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-8 gutter--sm">
+        <div class="inspiration--box" style="background-image: url('assets/inspiration/iow.jpg');" ng-click="gotoResults('results', 'isle of wight')">
+          <div class="inspiration--box-text">
+            <h4 class="font-weight-500">EXPLORE</h4>
+            <h4 class="font-weight-300">The Isle Of Wight</h4>
+            <hr class="hr"/>
+            <p>View cottages</p>
+          </div>
+          <div class="inspiration--overlay"></div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 gutter--sm">
+        <div class="inspiration--box" style="background-image: url('assets/inspiration/cornwall.jpg');" ng-click="gotoResults('results', 'cornwall')">
+          <div class="inspiration--box-text">
+            <h4 class="font-weight-500">SURFING</h4>
+            <h4 class="font-weight-300">In Cornwall</h4>
+            <hr class="hr"/>
+            <p>View cottages</p>
+          </div>
+          <div class="inspiration--overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>ABOUT US</h3>
+        <hr class="hr hr--left"/>
+        <p>Lorem ipsum dolor sit amet, solum consequat tincidunt mel id. Ne illud consectetuer sed. Pri facete lucilius consetetur an, sea te pertinax instructior, cum no vide assum moderatius. Agam graece noster sea eu.</p>
+        <p>Pro ad quis mundi nobis. Eum perfecto pericula delicatissimi et. Ei sint animal complectitur est, dicam verear pri in, pri vitae contentiones ut. Saepe commune gubergren ex his.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-section--bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4"><img src="assets/star.svg"/>
+        <h6>15 YEARS SERVICE</h6>
+        <hr class="hr"/>
+        <div class="px-2">
+          <p class="mb-4">Pro ad quis mundi nobis. Eum perfecto pericula delicatissimi et. Ei sint animal complectitur est, dicam verear pri in, pri vitae contentiones ut.</p>
+        </div>
+      </div>
+      <div class="col-lg-4"><img src="assets/advisor.svg"/>
+        <h6>EXPERIENCED ADVISORS</h6>
+        <hr class="hr"/>
+        <div class="px-2">
+          <p class="mb-4">Pro ad quis mundi nobis. Eum perfecto pericula delicatissimi et. Ei sint animal complectitur est, dicam verear pri in, pri vitae contentiones ut.</p>
+        </div>
+      </div>
+      <div class="col-lg-4"><img src="assets/heart.svg"/>
+        <h6>CUSTOMER SATISFACTION</h6>
+        <hr class="hr"/>
+        <div class="px-2">
+          <p class="mb-4">Pro ad quis mundi nobis. Eum perfecto pericula delicatissimi et. Ei sint animal complectitur est, dicam verear pri in, pri vitae contentiones ut.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="offer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>DEALS &amp; OFFERS</h3>
+        <hr class="hr"/>
+        <p class="mb-4">Looking to get away in the next few weeks?<br/>We currently have a range of cottages offered at reduced rates</p>
+        <button class="btn inverted">View Deals</button>
+      </div>
+    </div>
+  </div>
+</section>

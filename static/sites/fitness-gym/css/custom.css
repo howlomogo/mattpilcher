@@ -1,0 +1,561 @@
+/* GLOBAL STYLES */
+/*----------------------------------------------------------------------*/
+body {
+  color: #000; }
+
+html,
+body {
+  height: 100%; }
+
+/* Todo - I am quickly getting this in to get an idea of colors, this will be changed though */
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  /* container colors full width */ }
+  .container-fluid.color1 {
+    background-color: #ffffff; }
+    .container-fluid.color1 h5 {
+      color: #777; }
+  .container-fluid.color2 {
+    background-color: #202020;
+    color: #ffffff; }
+  .container-fluid.color6 {
+    background-color: #323232;
+    color: #ffffff; }
+
+/* The container at the top of the page, add the navigation height to lower the div */
+.topcontainer {
+  margin-top: 106px;
+  /*Size of the navigation */ }
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 80px; }
+
+/* Header of the containers with section title and sub text */
+header h1 {
+  text-align: center;
+  margin-bottom: 30px; }
+header h5 {
+  text-align: center;
+  margin-bottom: 60px; }
+
+/* Add a margin to the right of the glyicon */
+li .glyphicon, p .glyphicon {
+  top: 2px;
+  /* Add a pixel to the top to center it a little bit, is a quick fix */
+  margin-right: 10px; }
+
+/* GLOBAL STYLES END */
+/*----------------------------------------------------------------------*/
+/* INDEX PAGE */
+/*----------------------------------------------------------------------*/
+/*---------------------------------------*/
+/* Recent News */
+.homerecentnews .recentnews {
+  padding: 20px 60px 20px 0px; }
+  .homerecentnews .recentnews p {
+    color: #777; }
+  .homerecentnews .recentnews .leftcolumn {
+    text-align: center;
+    padding: 10px 0px 0px 0px; }
+    .homerecentnews .recentnews .leftcolumn img {
+      width: 70%; }
+  .homerecentnews .recentnews .rightcolumn h4 {
+    margin-bottom: 5px; }
+  .homerecentnews .recentnews .rightcolumn .blogger {
+    margin-bottom: 15px;
+    color: #DB325A; }
+.homerecentnews .openingtimes .fa-circle {
+  position: absolute;
+  top: 12px;
+  font-size: 16px;
+  margin-left: 20px; }
+.homerecentnews .openingtimes h2 {
+  margin-bottom: 20px; }
+.homerecentnews .openingtimes h4 {
+  margin-bottom: 5px; }
+.homerecentnews .openingtimes p {
+  margin-bottom: 15px; }
+@media screen and (max-width: 767px) {
+  .homerecentnews .openingtimes {
+    text-align: center;
+    margin-top: 20px; }
+    .homerecentnews .openingtimes .fa-circle {
+      top: 30px; }
+  .homerecentnews .contactushome {
+    text-align: center; } }
+.homerecentnews .contactushome h2 {
+  padding-top: 15px;
+  margin-bottom: 20px; }
+.homerecentnews .contactushome li {
+  margin: 5px 0px 5px; }
+.homerecentnews .contactushome a {
+  color: #DB325A;
+  cursor: pointer;
+  text-decoration: none; }
+
+/* Recent News */
+/*---------------------------------------*/
+/* Upcoming Classes */
+.upcomingcontainer {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto; }
+  .upcomingcontainer .upcomingtop img {
+    width: 100%; }
+  .upcomingcontainer .upcomingmiddle {
+    background-color: #DB325A;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .upcomingcontainer .upcomingbottom {
+    background-color: #ffffff;
+    color: #202020; }
+    .upcomingcontainer .upcomingbottom p {
+      padding-top: 15px;
+      padding-bottom: 15px; }
+
+@media screen and (max-width: 991px) {
+  .upcomingcontainer {
+    margin-bottom: 30px; } }
+/* Upcoming Classes */
+/* INDEX PAGE END */
+/*----------------------------------------------------------------------*/
+/* CLASSES & TRAINERS PAGE */
+/*----------------------------------------------------------------------*/
+/* Classes Top Left Section */
+.classeslefttop {
+  margin-bottom: 30px;
+  background-color: #202020;
+  /* Trainer Image */
+  /* Trainer & Class text */ }
+  .classeslefttop .leftcolumn {
+    padding: 0; }
+    .classeslefttop .leftcolumn img {
+      width: 100%; }
+  .classeslefttop .rightcolumn {
+    color: #ffffff;
+    padding: 15px 20px 15px 20px; }
+    .classeslefttop .rightcolumn h4 {
+      margin-bottom: 5px; }
+    .classeslefttop .rightcolumn .trainer {
+      margin-bottom: 10px;
+      color: #BBB; }
+    .classeslefttop .rightcolumn .socialmediaicons {
+      margin-top: 20px; }
+      .classeslefttop .rightcolumn .socialmediaicons ul {
+        list-style-type: none;
+        margin: 0; }
+      .classeslefttop .rightcolumn .socialmediaicons li {
+        display: inline; }
+        .classeslefttop .rightcolumn .socialmediaicons li a {
+          width: 50px;
+          color: #ffffff; }
+        .classeslefttop .rightcolumn .socialmediaicons li a:hover {
+          color: #DB325A;
+          text-decoration: none;
+          cursor: pointer; }
+
+/* Classes Top Left Section End*/
+/* Classes Bottom Left Section */
+.classesleftbottom {
+  /* Class Header */
+  /* Class Description */
+  /* Class Times Date etc */ }
+  .classesleftbottom .toprow {
+    background-color: #202020;
+    color: #ffffff;
+    padding: 30px 20px 30px; }
+  .classesleftbottom .middlerow {
+    background-color: #DB325A;
+    color: #ffffff;
+    padding: 30px 20px 30px; }
+  .classesleftbottom .bottomrow {
+    background-color: #202020;
+    color: #ffffff;
+    padding: 15px 20px 15px; }
+    .classesleftbottom .bottomrow span {
+      color: #DB325A; }
+
+@media screen and (max-width: 991px) {
+  .classesleftbottom {
+    margin-bottom: 30px; } }
+/* Classes Bottom Left Section End*/
+/* Classes Riht Panels Section */
+.panel {
+  /* PANEL BODY TEXT */
+  margin-bottom: 20px;
+  background-color: #DB325A;
+  /* Panel content color */
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 18px; }
+
+.panel-default > .panel-heading {
+  color: #ffffff;
+  background-color: #202020;
+  border: none; }
+
+.panel-title a {
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none; }
+
+.panel-group .panel {
+  border-radius: 0px; }
+
+/* Remove border between Head and Body content */
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+  border: none; }
+
+.classesrightpanel .btn {
+  background-color: #202020;
+  color: #ffffff;
+  margin-top: 20px; }
+
+@media screen and (max-width: 991px) {
+  .classesrightpanel {
+    padding: 0px; } }
+#class1-content {
+  opacity: 0;
+  display: none; }
+
+#class2-content {
+  opacity: 0;
+  display: none; }
+
+#class3-content {
+  opacity: 0;
+  display: none; }
+
+#class4-content {
+  opacity: 0;
+  display: none; }
+
+#class5-content {
+  opacity: 0;
+  display: none; }
+
+/* Classes Right Panels Section  END*/
+/*---------------------------------------*/
+/* Meet Your Trainers Section */
+.trainerscontainer {
+  text-align: center;
+  margin: 0 auto; }
+  .trainerscontainer .trainerstop {
+    cursor: pointer;
+    position: relative; }
+    .trainerscontainer .trainerstop img {
+      width: 100%; }
+    .trainerscontainer .trainerstop .trainersanimation {
+      position: absolute;
+      background-color: #DB325A;
+      z-index: 10;
+      height: 100%;
+      width: 100%;
+      opacity: 0.7; }
+    .trainerscontainer .trainerstop span {
+      position: absolute;
+      z-index: 30;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      color: #ffffff; }
+  .trainerscontainer .trainersmiddle {
+    background-color: #202020;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .trainerscontainer .trainersmiddle .trainer {
+      color: #BBB; }
+  .trainerscontainer .trainersbottom {
+    background-color: #ffffff;
+    color: #202020; }
+    .trainerscontainer .trainersbottom ul {
+      list-style-type: none;
+      padding: 10px 0 15px; }
+    .trainerscontainer .trainersbottom li {
+      display: inline; }
+      .trainerscontainer .trainersbottom li a {
+        width: 50px;
+        color: #202020; }
+      .trainerscontainer .trainersbottom li a:hover {
+        color: #DB325A;
+        text-decoration: none;
+        cursor: pointer; }
+
+.modal-content {
+  color: #202020; }
+
+@media screen and (max-width: 991px) {
+  .trainerscontainer {
+    margin-bottom: 30px; } }
+/* Meet Your Trainers Section  End */
+/* CLASSES & TRAINERS PAGE END */
+/*----------------------------------------------------------------------*/
+/* PRICING PAGE */
+/*----------------------------------------------------------------------*/
+/* PRICING & PLANS */
+.pricingplans .pricingcontainer {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%; }
+  .pricingplans .pricingcontainer .pricingtop {
+    background-color: #DB325A;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .pricingplans .pricingcontainer .pricingbottom {
+    background-color: #202020;
+    color: #ffffff; }
+    .pricingplans .pricingcontainer .pricingbottom hr {
+      width: 80%;
+      margin: 0 auto;
+      border-color: #BBB; }
+    .pricingplans .pricingcontainer .pricingbottom p {
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    .pricingplans .pricingcontainer .pricingbottom .btn {
+      margin: 15px 0 15px; }
+@media screen and (max-width: 767px) {
+  .pricingplans .pricingcontainer {
+    width: 400px;
+    margin-bottom: 30px; } }
+
+/* PRICING & PLANS END*/
+/* OTHER PLANS */
+.pricingcontent {
+  background-color: #ffffff;
+  color: #202020;
+  padding: 30px 20% 50px;
+  margin: 0px; }
+  .pricingcontent hr {
+    margin: 10px 15px 20px; }
+  .pricingcontent p {
+    line-height: 2em; }
+
+.nav-tabs.nav-justified {
+  border-radius: 0px;
+  background-color: #202020;
+  border: none; }
+
+.nav-tabs.nav-justified > li > a {
+  border: none;
+  border-radius: 0px;
+  color: #ffffff; }
+
+@media screen and (max-width: 767px) {
+  .nav-tabs.nav-justified > li > a {
+    margin: 0px; } }
+.nav-tabs.nav-justified > li > a:hover {
+  border: none;
+  border-radius: 0px;
+  color: #202020;
+  background-color: #ffffff; }
+
+.nav-tabs.nav-justified > .active > a {
+  border-radius: 0px;
+  background-color: #DB325A;
+  color: #ffffff;
+  border: none; }
+
+.nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+  border-radius: 0px;
+  background-color: #DB325A;
+  color: #ffffff;
+  border: none; }
+
+/* OTHER PLANS */
+/* PRICING PAGE END */
+/*----------------------------------------------------------------------*/
+/* TIMETABLE PAGE */
+/*----------------------------------------------------------------------*/
+.timetabletoprow {
+  margin-bottom: 30px;
+  text-align: center; }
+  .timetabletoprow .btn {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #202020; }
+  .timetabletoprow .btn:hover {
+    background-color: #BBB; }
+  .timetabletoprow .activefilter {
+    background-color: #DB325A;
+    color: #ffffff; }
+  .timetabletoprow .activefilter:hover {
+    background-color: #DB325A; }
+
+.table {
+  color: #ffffff;
+  background-color: #202020; }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #000; }
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+  border: 2px solid #000; }
+
+.table > tbody > tr > th {
+  border: 2px solid #000; }
+
+.cellfull {
+  background-color: #DB325A;
+  color: #ffffff; }
+
+/* TIMETABLE PAGE END */
+/*----------------------------------------------------------------------*/
+/* CONTACT PAGE */
+/*----------------------------------------------------------------------*/
+/* Contact Us Page */
+.contactus h2 {
+  margin-bottom: 20px; }
+.contactus .leftcolumn {
+  padding: 0 50px; }
+@media screen and (max-width: 991px) {
+  .contactus .leftcolumn {
+    margin-bottom: 60px; } }
+.contactus .rightcolumn {
+  padding: 0 50px; }
+  .contactus .rightcolumn .contacts p {
+    color: #777; }
+  .contactus .rightcolumn .contactinfo h2 {
+    margin-top: 30px; }
+  .contactus .rightcolumn .contactinfo a {
+    color: #DB325A; }
+  .contactus .rightcolumn .socialmedia {
+    background-color: #ffffff;
+    color: #202020; }
+    .contactus .rightcolumn .socialmedia h2 {
+      margin-top: 30px; }
+    .contactus .rightcolumn .socialmedia ul {
+      list-style-type: none;
+      padding: 10px 0 10px; }
+    .contactus .rightcolumn .socialmedia li {
+      display: inline; }
+      .contactus .rightcolumn .socialmedia li a {
+        width: 50px;
+        color: #202020; }
+      .contactus .rightcolumn .socialmedia li a:hover {
+        color: #DB325A;
+        text-decoration: none;
+        cursor: pointer; }
+
+/* Contact Us Page End */
+/* Contact Form */
+.form-group textarea {
+  height: 200px; }
+.form-group input {
+  width: 300px; }
+
+/* Map */
+#googlemap {
+  width: 100%;
+  height: 400px;
+  background-color: #ffffff; }
+
+/* Map END */
+/* CONTACT PAGE END */
+/*----------------------------------------------------------------------*/
+/* HOME PAGE SUCCESS STORIES */
+/* END HOME PAGE SUCCESS STORIES */
+/* carousel */
+#myCarousel .fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+#myCarousel.carousel,
+#myCarousel .item {
+  height: 100%; }
+#myCarousel .carousel-inner {
+  height: 100%; }
+#myCarousel .carouselallcontent {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  left: 55%;
+  z-index: 10; }
+  #myCarousel .carouselallcontent .carouselheader {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 20px; }
+    #myCarousel .carouselallcontent .carouselheader h1 {
+      color: #ffffff; }
+    #myCarousel .carouselallcontent .carouselheader h3 {
+      color: #ffffff;
+      font-weight: 300;
+      margin-top: 5px; }
+  #myCarousel .carouselallcontent .carouselcontent {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #FFF;
+    text-align: left;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px; }
+  #myCarousel .carouselallcontent .carouselbtn {
+    text-align: left; }
+
+/* END HOME CAROUSEL */
+#successcarousel .fill {
+  height: 100%; }
+  #successcarousel .fill img {
+    height: 100%;
+    width: 50%; }
+#successcarousel .carouselallcontent {
+  background-color: #202020;
+  padding: 30px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  z-index: 10; }
+  #successcarousel .carouselallcontent .carouselheader {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #202020; }
+    #successcarousel .carouselallcontent .carouselheader h1 {
+      color: #ffffff; }
+    #successcarousel .carouselallcontent .carouselheader h3 {
+      color: #ffffff;
+      font-weight: 300;
+      margin-top: 5px; }
+  #successcarousel .carouselallcontent .carouselcontent {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    color: #FFF;
+    text-align: left;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px; }
+  @media screen and (max-width: 991px) {
+    #successcarousel .carouselallcontent .carouselcontent {
+      display: none; } }
+  #successcarousel .carouselallcontent .carouselbtn {
+    text-align: left; }
+#successcarousel .carousel-indicators {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  z-index: 15;
+  width: 100px;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  list-style: none; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,354 @@
+body {
+  padding-top: 130px;
+}
+
+@media (max-width: 767px) {
+	body {
+  		padding-top: 90px;
+	}
+}
+
+.sloganfade{
+	/* This needs to be 0 opacty NOT display none as display:none, doesnt record its position properly... As its not displayed;*/
+	opacity: 0;
+}
+
+.fooditemfade{
+	opacity: 0;
+}
+
+.socialbtn1{
+	opacity: 1;
+	position: absolute;
+	top:50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialbtn2{
+	opacity: 0;
+	position: absolute;
+	top:50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.social{
+	position: relative;
+	overflow: hidden;
+	height: 70px;
+	width:70px;
+	margin: 10px 7px 20px;
+	display: inline-block;
+}
+
+.social:hover{
+	cursor: pointer;
+}
+
+/*
+Events Images
+*/
+
+#test1{
+	
+}
+
+.outereventsdiv{
+	width:100%;
+	padding:10px;
+	background-color:#fff;
+	border: 4px double #cccccc;
+}
+.eventsimgdiv {
+	width:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.eventscaption {
+	position: absolute;
+	top:-50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+	height: 100%;
+	width: 100%;
+	padding: 10px 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+	font-family: 'Josefin Slab', serif;
+	color:#fff;
+}
+
+/* Font styles */
+
+.imagebackground{
+	position: relative;
+	border-top:double 4px #ccc;
+	border-bottom:double 4px #ccc;
+}
+
+.imagetext{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 10px 20px;
+	font-family: 'Josefin Slab', serif;
+	font-weight:600;
+	color:#fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+hr.thestyle { padding: 0; border: none; border-top: medium double #333; color: #333; text-align: center; }
+
+
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
+.pageheaders {
+	font-family: 'Josefin Slab', serif;
+	font-weight:600;
+	color: #333;
+}
+
+.navigationfont {
+	font-family: 'Josefin Slab', serif;
+}
+
+.menuheaders {
+	margin:0px 0px 15px;
+	padding:0px;
+	font-weight: 300;
+	font-size:23px;
+}
+
+.aboutfont {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+}
+
+.contactfont {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.openingtimesleft {
+	font-family: 'Josefin Slab', serif;
+	margin:5px 0px;
+	padding:0px;
+	font-size:23px;
+	font-weight: 400;
+}
+
+.openingtimesright {
+	font-family: 'Josefin Slab', serif;
+	margin:5px 0px;
+	padding:0px;
+	font-size:23px;
+	font-weight:400;
+}
+
+.eventsleftfont {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color:#333;
+	font-size:19px;
+}
+
+.eventsrightfont {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	color:#105387;
+	font-size:19px;
+}
+
+.alignrowmid {
+display: table;
+width: 100%;
+}
+ 
+.aligncolmid {
+float: none;
+display: table-cell;
+vertical-align: middle;
+} 
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border:none;
+-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    height:130px;
+}
+
+@media (max-width: 767px) {
+	.navbar-default {
+  		height: 90px;
+	}
+}
+
+.boxshadow {
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 3px;
+    color: #777;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-logo {
+	float:none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+	.nav-logo {
+		float:left;
+	}
+}
+/* I want the fluid container to be full width */
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container {
+	max-width: 1024px;
+}
+
+/* Carousel Adds */
+
+.carouselheader {
+	font-family: 'Josefin Slab', serif;
+	font-size:5vw;
+	margin:15px 0px 20px;
+	padding:0px;
+	font-weight: 600;
+}
+@media (max-width: 767px) {
+	.carouselheader {
+		margin:0px 0px 10px;
+	}
+}
+
+.test {
+	font-weight:800;
+}
+
+.carouselsubheader {
+	font-family: 'Oswald', sans-serif;
+	font-size:2vw;
+	font-weight: 300;
+	line-height: 1.25;
+	margin:0px;
+	padding:0px;
+}
+
+.topcaption {
+	top:10%;
+	padding:0px;
+	margin:0px;
+}
+
+.bottomcaption {
+	bottom:15%;
+	padding:0px;
+	margin:0px;
+}
+
+/* Menu */
+
+.foodtitle {
+	font-family: 'Josefin Slab', serif;
+	font-size:20px;
+	font-weight:700;
+	margin:0px 0px 5px;
+	padding:0px;
+}
+
+.fooddesc {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	margin:0px 0px 5px;
+	padding:0px;
+}
+
+/* Food item price */
+
+.menuitemrow{
+	margin-bottom:25px;
+}
+
+.menuprice {
+	margin:0px;
+	background-color: #0f5484;
+	display: inline-block;
+	padding: 0.3em 0.6em 0.3em;
+	color: #fff;
+}
+@media (max-width: 991px){
+	.menulesspadding {
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+p{
+	/*font-family: 'Josefin Slab', serif;*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+a,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Josefin Slab', serif;
+}
+
+a,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+}

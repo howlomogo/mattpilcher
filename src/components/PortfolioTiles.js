@@ -41,9 +41,11 @@ export const PortfolioTiles = (props) => {
               {tile.completionDate &&
                 <p className='mb-5'><span className='font-weight-bold'>Completion Date: </span>{tile.completionDate}</p>
               }
-              <a href={tile.link} target='_blank'>
-                <button className='btn w-100 text-uppercase'>View Project</button>
-              </a>
+              {tile.link &&
+                <a href={tile.link} target='_blank'>
+                  <button className='btn w-100 text-uppercase'>View Project</button>
+                </a>  
+              }
             </div>
           </div>
         </div>
