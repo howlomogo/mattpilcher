@@ -6,21 +6,28 @@ import Seo from "../components/Seo"
 import Footer from '../components/Footer.js'
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <React.Fragment>
-      <Seo title='About' />
+      <Seo title={data.markdownRemark.frontmatter.title} />
       <Navigation />
       <section className='section section--overview'>
         <div className='container'>
-          <div className='row text-center'>
-            <div className='col-md-12'>
-              <img className='img-fluid mb-5' src={data.markdownRemark.frontmatter.bannerImg} />
+          {data.markdownRemark.frontmatter.bannerImg &&
+            <div className='row text-center'>
+              <div className='col-md-12'>
+                <img className='img-fluid mb-5' src={data.markdownRemark.frontmatter.bannerImg} />
+              </div>
             </div>
-          </div>
+          }
           <div className='row text-center'>
             <div className='col-md-12'>
-              <h2 className='mb-2 text-uppercase'>About</h2>
+              <h2 className='mb-2 text-uppercase'>
+                {data.markdownRemark.frontmatter.bannerImg ? (
+                  <span>About</span>
+                ) : (
+                  <span>{data.markdownRemark.frontmatter.title}</span>
+                )}
+              </h2>
               <hr className='hr-dashed--dark mb-4' />
             </div>
           </div>
@@ -42,19 +49,24 @@ export default ({ data }) => {
               <p>{data.markdownRemark.frontmatter.completionDate}</p>
             </div>
           </div>
-          <div className='row text-center'>
-            <div className='col-md-12'>
-              <h2 className='mb-2 text-uppercase'>Trailer</h2>
-              <hr className='hr-dashed--dark mb-4' />
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-md-12'>
-              <div className='embed-responsive embed-responsive-16by9 mb-6'>
-                <iframe className='embed-responsive-item' src={data.markdownRemark.frontmatter.trailer} allowfullscreen='allowfullscreen'></iframe>
+          {data.markdownRemark.frontmatter.trailer &&
+            <React.Fragment>
+              <div className='row text-center'>
+                <div className='col-md-12'>
+                  <h2 className='mb-2 text-uppercase'>Trailer</h2>
+                  <hr className='hr-dashed--dark mb-4' />
+                </div>
               </div>
-            </div>
-          </div>
+              <div className='row'>
+                <div className='col-md-12'>
+                  <div className='embed-responsive embed-responsive-16by9 mb-6'>
+                    <iframe className='embed-responsive-item' src={data.markdownRemark.frontmatter.trailer} allowfullscreen='allowfullscreen'></iframe>
+                  </div>
+                </div>
+              </div>
+            </React.Fragment>
+          }
+
           <div className='row text-center'>
             <div className='col-md-12'>
               <h2 className='mb-2 text-uppercase'>Screenshots</h2>
@@ -73,7 +85,7 @@ export default ({ data }) => {
         </div>
         <div className='modals'>
           {data.markdownRemark.frontmatter.screenshots.map((screenshot, index) => (
-            <div key={`modal-${index}`}className='modal fade' id={`#item${index}`}>
+            <div key={`modal-${index}`}className='modal fade' id={`item${index}`}>
               <div className='modal-dialog'>
                 <div className='modal-content'>
                   <div className='modal-header'>
@@ -103,6 +115,7 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug }}) {
       html
       frontmatter {
+        title
         bannerImg
         description
         completionDate

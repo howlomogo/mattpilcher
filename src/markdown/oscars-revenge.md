@@ -1,4 +1,5 @@
 ---
+title: "Oscars Revenge"
 bannerImg: "http://mattpilcher.co.uk/assets/portfolio/games/oscarsrevenge/oscars-revenge-header.jpg"
 description: "<p>After Oscar’s wedding day took a turn for the worst, he was forced on a journey to seek revenge.</p>
 <p>Help Oscar travel through over 40 levels in this challenging platformer, avoiding deathly obstacles and dangerous enemies. Collecting coins to progress further.</p>
@@ -26,6 +27,3 @@ screenshots:
  - "http://mattpilcher.co.uk/assets/portfolio/games/oscarsrevenge/oscarsRevenge-s7.jpg"
  - "http://mattpilcher.co.uk/assets/portfolio/games/oscarsrevenge/oscarsRevenge-s8.jpg"
 ---
-Pandas are really sweet.
-Here's a video of a panda eating sweets.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>

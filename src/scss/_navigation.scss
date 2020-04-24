@@ -6,12 +6,16 @@
 			color: #ffffff;
 			font-size: 0.85rem;
 			padding: 1.5rem 1.25rem;
-		    -webkit-transition: color 0.5s;
-		    transition: color 0.5s;
-		    letter-spacing: 2;
+			-webkit-transition: color 0.5s;
+			transition: color 0.5s;
+			letter-spacing: 2;
+
+			&:hover {
+				color: #aaa;
+			}
 
 			@media (max-width: 992px) {
-				text-align: center;	
+				text-align: center;
 			}
 		}
 		&:last-child {
@@ -35,20 +39,8 @@
 	font-size:32px;
 }
 
-.navbar--container {
-	position: absolute;
-	z-index:1;
-	width: 100%;
-	// background-color: #ffffff;
-	// box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
 .navbar--container-dark {
-	position: absolute;
-	z-index:1;
-	width: 100%;
 	background-color: $color--dark-blue;
-	// box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .navbar-toggler {

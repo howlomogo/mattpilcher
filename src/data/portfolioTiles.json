@@ -67,24 +67,24 @@
     "title": "Oscars Revenge",
     "description": "Help Oscar travel through over 40 levels in this challenging platformer, avoiding deathly obstacles and dangerous enemies.",
     "image": "../images/portfolio/oscars-revenge-mockup.png",
-    "completionDate": "N/A",
+    "completionDate": "",
     "hideTag": "web",
-    "link": "/projects/oscarsrevenge.html"
+    "link": "/portfolio/oscars-revenge"
   },
   {
     "title": "Nightmare Kid",
     "description": "Nightmare Kid is a fast paced shooter where you use a mixture of upgrades and strategy to repel the ever increasing number of monsters and ghouls.",
     "image": "../images/portfolio/nightmare-kid-mockup.png",
-    "completionDate": "N/A",
+    "completionDate": "",
     "hideTag": "web",
-    "link": "/projects/nightmarekid.html"
+    "link": "/portfolio/nightmare-kid"
   },
   {
     "title": "Zybrds",
     "description": "Zybyrds is a shooter game where you need to kill a certain amount of birds each wave in order to continue to the next level.",
     "image": "../images/portfolio/zybyrds-mockup.png",
-    "completionDate": "N/A",
+    "completionDate": "",
     "hideTag": "web",
-    "link": "/projects/zybyrds.html"
+    "link": "/portfolio/zybyrds"
   }
 ]

@@ -38,7 +38,9 @@ export const PortfolioTiles = (props) => {
             <div className='work--text-container'>
               <h3 className='text-uppercase'>{tile.title}</h3>
               <p className='mb-3'>{tile.description}</p>
-              <p className='mb-5'><span className='font-weight-bold'>Completion Date: </span>{tile.completionDate}</p>
+              {tile.completionDate &&
+                <p className='mb-5'><span className='font-weight-bold'>Completion Date: </span>{tile.completionDate}</p>
+              }
               <a href={tile.link} target='_blank'>
                 <button className='btn w-100 text-uppercase'>View Project</button>
               </a>

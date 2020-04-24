@@ -1,4 +1,5 @@
 ---
+title: "Nightmare Kid"
 bannerImg: "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmare-kid-header.jpg"
 description: "<p>Nightmare Kid is a fast paced addictive shooter where you can use a mixture of upgrades and strategy to repel the ever increasing number of monsters and ghouls.</p>
 
@@ -23,6 +24,3 @@ screenshots:
  - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s4.jpg"
  - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s5.jpg"
 ---
-Pandas are really sweet.
-Here's a video of a panda eating sweets.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
