@@ -130,7 +130,7 @@ class About extends Component {
             <div className='row'>
               <div className='col-md-12 text-center wow fadeIn' data-wow-duration='1s'>
                 <hr className='hr-dashed--light-full mb-5'/>
-                <p className='mb-5'>Please view my CV to see a <span className='color--primary'>full list </span>of my technial skills.</p><a href='assets/mattpilcher_cv.pdf' target='_blank'>
+                <p className='mb-5'>Please view my CV to see a <span className='color--primary'>full list </span>of my technial skills.</p><a href='../mattpilcher_cv.pdf' target='_blank'>
                   <button className='btn inverted'>VIEW MY CV</button></a>
               </div>
             </div>
