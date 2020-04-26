@@ -88,16 +88,16 @@ export default ({ data }) => {
         </div>
 
         {data.markdownRemark.frontmatter.screenshots.map((screenshot, index) => (
-          <div key={`modal-${index}`} id={`item${index}`} className="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">{data.markdownRemark.frontmatter.title}</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+          <div key={`modal-${index}`} id={`item${index}`} className='modal' tabindex='-1' role='dialog'>
+            <div className='modal-dialog' role='document'>
+              <div className='modal-content'>
+                <div className='modal-header'>
+                  <h5 className='modal-title'>{data.markdownRemark.frontmatter.title}</h5>
+                  <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
+                <div className='modal-body'>
                   <img width='100%' src={screenshot} />
                 </div>
               </div>

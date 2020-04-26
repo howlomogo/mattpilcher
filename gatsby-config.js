@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "matt-gatsby-test",
+        bucketName: "mattpilcher.co.uk",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
