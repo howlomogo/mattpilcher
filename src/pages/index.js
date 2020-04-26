@@ -99,29 +99,31 @@ class About extends Component {
             <div className='row mb-4 wow fadeIn' data-wow-duration='1s'>
               <div className='col-md-4'>
                 <ul>
-                  <li><span>Javascript, ES6 &amp; JSX</span></li>
+                  <li><span>HTML, Javascript, jQuery</span></li>
                   <li><span>React &amp; Redux</span></li>
-                  <li><span>AngularJS &amp; jQuery</span></li>
                   <li><span>Node &amp; Git</span></li>
                   <li><span>Webpack, Gulp &amp; Bower</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
                 <ul>
-                  <li><span>HTML5 &amp; Jade</span></li>
-                  <li><span>CSS3, Sass &amp; Bootstrap</span></li>
-                  <li><span>Atom &amp; Sublime 3</span></li>
+                  <li><span>CSS, Sass &amp; Bootstrap</span></li>
                   <li><span>Photoshop &amp; Illustator</span></li>
                   <li><span>Sketch</span></li>
+                  <li><span>Atom &amp; VS Code</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
                 <ul>
+                  <li><span>GatsbyJS</span></li>
+                  <li><span>GraphQL</span></li>
+                  <li><span>AngularJS</span></li>
                   <li><span>Wordpress</span></li>
                   <li><span>PHP &amp; MySQL</span></li>
                   <li><span>Flash &amp; Actionscript</span></li>
                   <li><span>C# &amp; Unity 3D</span></li>
-                  <li><span>MongoDB </span></li>
+                  <li><span>SQL</span></li>
+                  <li><span>MongoDB</span></li>
                 </ul>
               </div>
             </div>
@@ -204,9 +206,11 @@ class About extends Component {
                   <h2 className='mb-2 text-uppercase'>Contact</h2>
                   <hr className='hr--primary hr--left mb-2' />
                 </div>
-                <div className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}}>
-                  <p className='mb-4'>Please feel free to contact me through the details below or via the form, I am avaliable for freelance and contract work.</p>
-                </div>
+                {/*
+                  <div className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}}>
+                    <p className='mb-4'>Please feel free to contact me.</p>
+                  </div>
+                */}
                 <div className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}}>
                   <h4 className='mb-1'>T: <span>+44(0)7954 588390</span></h4>
                   <h4 className='mb-4'>E: <span>mattpilcher87@gmail.com</span></h4>
@@ -220,14 +224,16 @@ class About extends Component {
                   </a>
                 </div>
               </div>
-              <div className='col-md-6'>
-                <form className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}} method='post' action='sendmail.php'>
-                  <input className='mb-2' id='Name' placeholder='Name' type='text' name='Name' />
-                  <input className='mb-2' id='Email' placeholder='Email' type='text' name='Email' />
-                  <textarea className='mb-2' id='Message' placeholder='Message' name='Message' rows='6' />
-                  <button className='btn w-100 text-uppercase' type='submit' name='submit'>Send Message</button>
-                </form>
-              </div>
+              {/*
+                <div className='col-md-6'>
+                  <form className='wow fadeIn' data-wow-duration='1s' style={{zIndex: '3'}} method='post' action='sendmail.php'>
+                    <input className='mb-2' id='Name' placeholder='Name' type='text' name='Name' />
+                    <input className='mb-2' id='Email' placeholder='Email' type='text' name='Email' />
+                    <textarea className='mb-2' id='Message' placeholder='Message' name='Message' rows='6' />
+                    <button className='btn w-100 text-uppercase' type='submit' name='submit'>Send Message</button>
+                  </form>
+                </div>
+              */}
             </div>
           </div>
         </section>

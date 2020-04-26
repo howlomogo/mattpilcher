@@ -5,8 +5,10 @@ import Navigation from '../components/Navigation.js'
 import Seo from "../components/Seo"
 import Footer from '../components/Footer.js'
 import '../scss/main.scss'
+import Img from "gatsby-image"
 
 export default ({ data }) => {
+  console.log('---data')
   return (
     <React.Fragment>
       <Seo title={data.markdownRemark.frontmatter.title} />
@@ -16,7 +18,7 @@ export default ({ data }) => {
           {data.markdownRemark.frontmatter.bannerImg &&
             <div className='row text-center'>
               <div className='col-md-12'>
-                <img className='img-fluid mb-5' src={data.markdownRemark.frontmatter.bannerImg} />
+                <Img className='img-fluid mb-5' fluid={data.markdownRemark.frontmatter.bannerImg.childImageSharp.fluid} />
               </div>
             </div>
           }
@@ -75,34 +77,33 @@ export default ({ data }) => {
             </div>
           </div>
           <div className='row screenshots--container mb-3 text-center'>
-            {data.markdownRemark.frontmatter.screenshots.map((screenshot, index) => (
+            {data.markdownRemark.frontmatter.thumbnails.map((thumbnail, index) => (
               <div key={`screenshot-${index}`} className='col-md-3 col-sm-6'>
                 <a data-toggle='modal' data-target={`#item${index}`}>
-                  <img className='img-fluid' src={screenshot} />
+                  <img className='img-fluid' src={thumbnail} />
                 </a>
               </div>
             ))}
           </div>
         </div>
-        <div className='modals'>
-          {data.markdownRemark.frontmatter.screenshots.map((screenshot, index) => (
-            <div key={`modal-${index}`}className='modal fade' id={`item${index}`}>
-              <div className='modal-dialog'>
-                <div className='modal-content'>
-                  <div className='modal-header'>
-                    <button className='close' type='button' data-dismiss='modal'>
-                      <span>×</span>
-                    </button>
-                    <h4 className='modal-title'>Oscars Revenge</h4>
-                  </div>
-                  <div className='modal-body'>
-                    <img width='100%;' src={screenshot} />
-                  </div>
+
+        {data.markdownRemark.frontmatter.screenshots.map((screenshot, index) => (
+          <div key={`modal-${index}`} id={`item${index}`} className="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">{data.markdownRemark.frontmatter.title}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img width='100%' src={screenshot} />
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </section>
 
       <Footer />
@@ -117,12 +118,19 @@ export const query = graphql`
       html
       frontmatter {
         title
-        bannerImg
+        bannerImg {
+          childImageSharp {
+            fluid(maxWidth: 1024, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
         completionDate
         createdUsing
         whatIDid
         trailer
+        thumbnails
         screenshots
       }
     }

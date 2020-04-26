@@ -1,6 +1,6 @@
 ---
 title: "Nightmare Kid"
-bannerImg: "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmare-kid-header.jpg"
+bannerImg: "../images/portfolio/games/nightmarekid/nightmare-kid-header.jpg"
 description: "<p>Nightmare Kid is a fast paced addictive shooter where you can use a mixture of upgrades and strategy to repel the ever increasing number of monsters and ghouls.</p>
 
 <p>Your goal is to see how many nights you can survive and how many monsters you can destroy while doing so. But be careful at the end of each night is a much tougher boss.</p>
@@ -17,10 +17,16 @@ whatIDid:
  - "iOS Touch controls, Model Compatibility, Debugging and optimisation for iOS devices."
  - "Integration of local, weekly and global online leaderboards. Scene navigation and saving."
 trailer: "http://www.youtube.com/embed/8ETGaveX-As"
+thumbnails:
+ - "../screenshots/nightmare-kid/thumb-nightmare-kid-s1.jpg"
+ - "../screenshots/nightmare-kid/thumb-nightmare-kid-s2.jpg"
+ - "../screenshots/nightmare-kid/thumb-nightmare-kid-s3.jpg"
+ - "../screenshots/nightmare-kid/thumb-nightmare-kid-s4.jpg"
+ - "../screenshots/nightmare-kid/thumb-nightmare-kid-s5.jpg"
 screenshots:
- - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s1.jpg"
- - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s2.jpg"
- - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s3.jpg"
- - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s4.jpg"
- - "http://mattpilcher.co.uk/assets/portfolio/games/nightmarekid/nightmareKid-s5.jpg"
+ - "../screenshots/nightmare-kid/nightmare-kid-s1.jpg"
+ - "../screenshots/nightmare-kid/nightmare-kid-s2.jpg"
+ - "../screenshots/nightmare-kid/nightmare-kid-s3.jpg"
+ - "../screenshots/nightmare-kid/nightmare-kid-s4.jpg"
+ - "../screenshots/nightmare-kid/nightmare-kid-s5.jpg"
 ---
