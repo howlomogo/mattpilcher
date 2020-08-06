@@ -52,14 +52,15 @@ class About extends Component {
             <div className='row'>
               <div className='col-md-12'>
                 <div className='wow fadeIn' data-wow-duration='1s'>
-                  <h3 className='mb-3'>I’m Matt a <span className='color--primary'>Front End Developer </span>&amp; <span className='color--primary'>Designer </span>based in Hampshire, UK</h3>
+                  <h3 className='mb-3'>Hi, I’m Matt a <span className='color--primary'>Front End Developer </span>&amp; <span className='color--primary'>Designer </span>based in Hampshire, UK</h3>
                   <hr className='hr-dashed--dark mb-3' />
                 </div>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I have been programming for over 10 years and have 5 years commercial experience working within the web industry along side digital agencies and software companies. I am very passionate about web development and enjoy creating cleanly written, responsive websites.
+                  I have 11 years of experience working within the web and design industry along side digital agencies and software companies, with knowledge gained from working on a wide range of projects.
+                  I am very passionate about web development and enjoy creating cleanly written, responsive websites.
                 </p>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I also have an interest in game development and have released 2 games onto the app store. I am always open to new opportunities including freelance work so please feel free to contact me if you are in need of a front end developer.
+                  I am currently looking for my next developer role, please feel free to view my CV (Linked in the section below) or contact me if you have a position you feel I may be suited for.
                 </p>
               </div>
             </div>
@@ -99,29 +100,38 @@ class About extends Component {
             <div className='row mb-4 wow fadeIn' data-wow-duration='1s'>
               <div className='col-md-4'>
                 <ul>
-                  <li><span>HTML, Javascript, jQuery</span></li>
-                  <li><span>React &amp; Redux</span></li>
-                  <li><span>Node &amp; Git</span></li>
-                  <li><span>Webpack, Gulp &amp; Bower</span></li>
+                <li><span>Javascript</span></li>
+                <li><span>React &amp; Redux</span></li>
+                <li><span>HTML &amp; Jade</span></li>
+                <li><span>CSS, LESS &amp; SASS</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>jQuery</span></li>
+                <li><span>Webpack</span></li>
+                <li><span>Node.js</span></li>
+                <li><span>Git</span></li>
+                <li><span>GraphQL / Apollo</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
                 <ul>
-                  <li><span>CSS, Sass &amp; Bootstrap</span></li>
-                  <li><span>Photoshop &amp; Illustator</span></li>
-                  <li><span>Sketch</span></li>
-                  <li><span>Atom &amp; VS Code</span></li>
+                <li><span>Photoshop</span></li>
+                <li><span>Illustrator</span></li>
+                <li><span>Sketch</span></li>
+                <li><span>Grunt, Gulp & Bower</span></li>
+                <li><span>ExpressJS</span></li>
+                <li><span>AWS</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
                 <ul>
                   <li><span>GatsbyJS</span></li>
-                  <li><span>GraphQL</span></li>
-                  <li><span>AngularJS</span></li>
+                  <li><span>AngularJS V1</span></li>
+                  <li><span>Mocha, Chai &amp; Sinon</span></li>
+                  <li><span>TravisCI &amp; CircleCI</span></li>
                   <li><span>Wordpress</span></li>
-                  <li><span>PHP &amp; MySQL</span></li>
                   <li><span>Flash &amp; Actionscript</span></li>
-                  <li><span>C# &amp; Unity 3D</span></li>
+                  <li><span>Unity (with C#)</span></li>
+                  <li><span>PHP</span></li>
                   <li><span>SQL</span></li>
                   <li><span>MongoDB</span></li>
                 </ul>
