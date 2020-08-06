@@ -60,7 +60,7 @@ class About extends Component {
                   I am very passionate about web development and enjoy creating cleanly written, responsive websites.
                 </p>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I am currently looking for my next developer role, please feel free to view my CV (Linked in the section below) or contact me if you have a position you feel I may be suited for.
+                  I am currently looking for my next developer role, please feel free to view my CV or contact me if you have a position you feel I may be suited for.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ class About extends Component {
                   <hr className='hr-dashed--light mb-3'/>
                 </div>
                 <p className='mb-5 wow fadeIn' data-wow-duration='1s'>
-                  My main skills are listed below, I use Javascript, HTML &amp; Sass / CSS on a daily basis. The framework will depend on my current project, While programming I like to follow best practises and keep code as clean as possible.
+                  My main skills are listed below, I use Javascript, HTML &amp; CSS on a daily basis. The front end frameworks will depend on my current project, while I do not class myself as a backend developer I do have experience with some backend technolgies which I've used in the past. While programming I like to follow best practises and keep code as clean as possible.
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ class About extends Component {
                 <li><span>Sketch</span></li>
                 <li><span>Grunt, Gulp & Bower</span></li>
                 <li><span>ExpressJS</span></li>
-                <li><span>AWS</span></li>
+                <li><span>AWS (Mainly S3 but have worked with other services also)</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
