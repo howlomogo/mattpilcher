@@ -60,7 +60,7 @@ class About extends Component {
                   I am very passionate about web development and enjoy creating cleanly written, responsive websites.
                 </p>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I am currently looking for my next developer role, please feel free to view my CV or contact me if you have a position you feel I may be suited for.
+                  I'm currently looking for my next developer role, please feel free to view my CV or contact me if you have a position you feel I may be suited for.
                 </p>
               </div>
             </div>
@@ -74,11 +74,18 @@ class About extends Component {
                   <h2 className='mb-3 text-uppercase'>Technical Skills</h2>
                   <hr className='hr-dashed--light mb-3'/>
                 </div>
+                <p className='wow fadeIn' data-wow-duration='1s'>
+                  My main skills are listed below, I use Javascript, HTML &amp; CSS on a daily basis.
+                  The framework will depend on my current project and I particulary enjoy working with React &amp; Redux.
+                  I have experience working with a few backend technologies as listed below, I am however predominantly looking for a front end based position.
+                </p>
+
                 <p className='mb-5 wow fadeIn' data-wow-duration='1s'>
-                  My main skills are listed below, I use Javascript, HTML &amp; CSS on a daily basis. The front end frameworks will depend on my current project, while I do not class myself as a backend developer I do have experience with some backend technolgies which I've used in the past. While programming I like to follow best practises and keep code as clean as possible.
+                  While programming I like to follow best practises and also enjoy keeping upto date with and learning out new technolgies / frameworks.
                 </p>
               </div>
             </div>
+
             <div className='row'>
               <div className='col-md-8'>
                 <div className='wow fadeIn' data-wow-duration='1s'>
@@ -100,26 +107,27 @@ class About extends Component {
             <div className='row mb-4 wow fadeIn' data-wow-duration='1s'>
               <div className='col-md-4'>
                 <ul>
-                <li><span>Javascript</span></li>
-                <li><span>React &amp; Redux</span></li>
-                <li><span>HTML &amp; Jade</span></li>
-                <li><span>CSS, LESS &amp; SASS</span></li>
-                <li><span>Bootstrap</span></li>
-                <li><span>jQuery</span></li>
-                <li><span>Webpack</span></li>
-                <li><span>Node.js</span></li>
-                <li><span>Git</span></li>
-                <li><span>GraphQL / Apollo</span></li>
+                  <li><span>Javascript</span></li>
+                  <li><span>React &amp; Redux</span></li>
+                  <li><span>jQuery</span></li>
+                  <li><span>Webpack</span></li>
+                  <li><span>NPM &amp; Basic Node</span></li>
+                  <li><span>Git &amp; Bitbucket</span></li>
+                  <li><span>GraphQL / Apollo</span></li>
+                  <li><span>Grunt, Gulp & Bower</span></li>
+                  <li><span>ExpressJS</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
                 <ul>
-                <li><span>Photoshop</span></li>
-                <li><span>Illustrator</span></li>
-                <li><span>Sketch</span></li>
-                <li><span>Grunt, Gulp & Bower</span></li>
-                <li><span>ExpressJS</span></li>
-                <li><span>AWS (Mainly S3 but have worked with other services also)</span></li>
+                  <li><span>HTML &amp; Jade</span></li>
+                  <li><span>CSS, LESS &amp; SASS</span></li>
+                  <li><span>Bootstrap</span></li>
+                  <li><span>AWS (Mainly S3)</span></li>
+                  <li><span>Jira</span></li>
+                  <li><span>Photoshop</span></li>
+                  <li><span>Illustrator</span></li>
+                  <li><span>Sketch</span></li>
                 </ul>
               </div>
               <div className='col-md-4'>
@@ -128,19 +136,21 @@ class About extends Component {
                   <li><span>AngularJS V1</span></li>
                   <li><span>Mocha, Chai &amp; Sinon</span></li>
                   <li><span>TravisCI &amp; CircleCI</span></li>
-                  <li><span>Wordpress</span></li>
                   <li><span>Flash &amp; Actionscript</span></li>
+                  <li><span>PHP &amp; SQL</span></li>
+                  <li><span>Wordpress</span></li>
                   <li><span>Unity (with C#)</span></li>
-                  <li><span>PHP</span></li>
-                  <li><span>SQL</span></li>
                   <li><span>MongoDB</span></li>
                 </ul>
               </div>
             </div>
+
+
+
             <div className='row'>
               <div className='col-md-12 text-center wow fadeIn' data-wow-duration='1s'>
                 <hr className='hr-dashed--light-full mb-5'/>
-                <p className='mb-5'>Please view my CV to see a <span className='color--primary'>full list </span>of my technial skills.</p><a href='../mattpilcher_cv.pdf' target='_blank'>
+                <p className='mb-5'>Please view my CV to see my previous experience.</p><a href='../mattpilcher_cv.pdf' target='_blank'>
                   <button className='btn inverted'>VIEW MY CV</button></a>
               </div>
             </div>
