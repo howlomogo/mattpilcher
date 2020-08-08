@@ -187,7 +187,7 @@ class About extends Component {
                 </a>
               </div>
               <div className='col-md-4'>
-                <a href='/sites/home-renovations/' target='_blank'>
+                <a href='/sites/renovation/' target='_blank'>
                   <div className='work--grid' style={{ backgroundImage: 'url(' + HomeRenovations + ')'}}>
                     <div className='work--overlay' />
                     <div className='work--container'>
@@ -198,7 +198,7 @@ class About extends Component {
                 </a>
               </div>
               <div className='col-md-4'>
-                <a href='/sites/thevegbox/' target='_blank'>
+                <a href='/sites/the-veg-box/' target='_blank'>
                   <div className='work--grid' style={{ backgroundImage: 'url(' + TheVegBox + ')'}}>
                     <div className='work--overlay' />
                     <div className='work--container'>
