@@ -27,7 +27,8 @@ class Portfolio extends Component {
                   Portfolio
                 </h2>
                 <hr className='hr-dashed--dark mb-3' />
-                <p className='mb-3'>Below is a selection of my work, my commerical work is not shown, however I have completed a number of personal projects which I am able to list here.</p>
+                <p className='mb-3'>Below is a selection of personal projects and independent games I have created.</p>
+
                 <hr className='hr-dashed--dark mb-3' />
 
                 <div className='portfolio--nav'>
