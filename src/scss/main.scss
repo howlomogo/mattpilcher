@@ -24,6 +24,11 @@ p,a, li {
 	color: $color--para;
 }
 
+a {
+	color: $color--primary;
+	text-decoration: none !important;
+}
+
 p {
 	font-weight: 300;
 	letter-spacing: 0.5;

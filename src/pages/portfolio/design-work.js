@@ -45,11 +45,15 @@ class Portfolio extends Component {
                   Design Work
                 </h2>
                 <hr className='hr-dashed--dark mb-3' />
-                <p className='mb-3'>Below is a small selection of commercial design work I've done on over the years, from my time at Hardcloud, Blueprint and Unipro working on newsletters and website mockups/graphics.</p>
+                <p className='mb-3'>Below is a very small selection of commercial design work I've done over the years while at Hardcloud, Blueprint &amp; Unipro.</p>
                 <hr className='hr-dashed--dark mb-3' />
               </div>
             </div>
             <div className='row'>
+              <div className='col-xs-12 col-sm-12'>
+                <h4 className='mb-2 text-center'>Newsletters &amp; Website Graphics</h4>
+                <hr className='hr-dashed--dark mb-3' />
+              </div>
               <div className='col-sm-4'>
                 <a href={UP2} target='_blank'>
                   <img className='img-fluid mb-4 design-thumb-link' src={UP2_thumb} alt='Logo'/>
@@ -60,7 +64,6 @@ class Portfolio extends Component {
                   <img className='img-fluid mb-4 design-thumb-link' src={UP3_thumb} alt='Logo'/>
                 </a>
               </div>
-
               <div className='col-sm-4'>
                 <a href={UP1} target='_blank'>
                   <img className='img-fluid mb-4 design-thumb-link' src={UP1_thumb} alt='Logo'/>
@@ -78,6 +81,10 @@ class Portfolio extends Component {
                 </a>
               </div>
 
+              <div className='col-xs-12 col-sm-12'>
+                <h4 className='mb-2 text-center'>Website Mockup</h4>
+                <hr className='hr-dashed--dark mb-3' />
+              </div>
 
               <div className='col-sm-4'>
                 <a href={B2} target='_blank'>

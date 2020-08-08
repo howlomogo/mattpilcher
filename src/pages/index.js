@@ -56,11 +56,11 @@ class About extends Component {
                   <hr className='hr-dashed--dark mb-3' />
                 </div>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I have 11 years of experience working within the web and design industry along side digital agencies and software companies, with knowledge gained from working on a wide range of projects.
-                  I am very passionate about web development and enjoy creating cleanly written, responsive websites.
+                  I have 10 years experience working within the web and design industry along side digital agencies and software companies, with knowledge gained from working on a wide range of projects.
+                  I am very passionate about web development and enjoy creating cleanly written, responsive websites and user interfaces.
                 </p>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  I'm currently looking for my next developer role, please feel free to view my CV or contact me if you have a position you feel I may be suited for.
+                  I'm currently looking for my next developer role, please feel free to <a href='../mattpilcher_cv.pdf' target='_blank'>view my CV</a> or contact me if you have a position you feel I may be suited for.
                 </p>
               </div>
             </div>
@@ -75,13 +75,13 @@ class About extends Component {
                   <hr className='hr-dashed--light mb-3'/>
                 </div>
                 <p className='wow fadeIn' data-wow-duration='1s'>
-                  My main skills are listed below, I use Javascript, HTML &amp; CSS on a daily basis.
+                  My main skills are listed below and I use Javascript, HTML &amp; CSS on a daily basis.
                   The framework will depend on my current project and I particulary enjoy working with React &amp; Redux.
-                  I have experience working with a few backend technologies as listed below, I am however predominantly looking for a front end based position.
+                  I have experience working with a few backend technologies as listed below, I am however predominantly looking for a front end focused position.
                 </p>
 
                 <p className='mb-5 wow fadeIn' data-wow-duration='1s'>
-                  While programming I like to follow best practises and also enjoy keeping upto date with and learning out new technolgies / frameworks.
+                  While programming I like to follow best practises and also enjoy keeping upto date with and learning new technologies and frameworks.
                 </p>
               </div>
             </div>
