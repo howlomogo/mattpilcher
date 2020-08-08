@@ -211,7 +211,7 @@ class About extends Component {
             </div>
             <div className='row no-gutters text-center'>
               <div className='col-md-12'>
-                <a href='/portfolio.html'>
+                <a href='/portfolio'>
                   <button className='btn inverted color--dark-blue text-uppercase'>
                     View My Work
                   </button>
