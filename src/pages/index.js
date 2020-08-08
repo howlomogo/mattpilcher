@@ -57,7 +57,7 @@ class About extends Component {
                 </div>
                 <p className='wow fadeIn' data-wow-duration='1s'>
                   I have 10 years experience working within the web and design industry along side digital agencies and software companies, with knowledge gained from working on a wide range of projects.
-                  I am very passionate about web development and enjoy creating cleanly written, responsive websites and user interfaces.
+                  I am very passionate about web development and enjoy creating cleanly written responsive websites and user interfaces.
                 </p>
                 <p className='wow fadeIn' data-wow-duration='1s'>
                   I'm currently looking for my next developer role, please feel free to <a href='../mattpilcher_cv.pdf' target='_blank'>view my CV</a> or contact me if you have a position you feel I may be suited for.
@@ -150,8 +150,10 @@ class About extends Component {
             <div className='row'>
               <div className='col-md-12 text-center wow fadeIn' data-wow-duration='1s'>
                 <hr className='hr-dashed--light-full mb-5'/>
-                <p className='mb-5'>Please view my CV to see my previous experience.</p><a href='../mattpilcher_cv.pdf' target='_blank'>
-                  <button className='btn inverted'>VIEW MY CV</button></a>
+                {/* <p className='mb-5'>Please view my CV to see my previous experience.</p> */}
+                <a href='../mattpilcher_cv.pdf' target='_blank'>
+                  <button className='btn inverted'>VIEW MY CV</button>
+                </a>
               </div>
             </div>
           </div>
