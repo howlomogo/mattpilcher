@@ -12,7 +12,7 @@ description: "<p>After Oscar’s wedding day took a turn for the worst, he was f
 completionDate: "September 2014"
 createdUsing: "Unity 3D, C#, Illustrator, Photoshop, Flash."
 whatIDid:
- - "Creation of all gameplay features including AI, obstacles, Scene navigation and Saving."
+ - "Creation of all code and gameplay features including AI, obstacles, Scene navigation and Saving."
  - "Performance optimisation for iOS, Reducing draw calls / Overdraw, Sprite batching, Object pooling, Correct use of shaders, Image / audio optimisation, Other general Optimisations."
  - "Integrating and modifying assets (2D Toolkit, 2D Character Controller)."
  - "Concept and Creation of all artwork, animations, UI and Level designs. Marketing the game."
