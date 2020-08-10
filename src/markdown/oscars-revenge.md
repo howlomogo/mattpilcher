@@ -7,7 +7,8 @@ description: "<p>After Oscar’s wedding day took a turn for the worst, he was f
 <li><span>Challenging Platforming Fun</span></li>
 <li><span>Cool Soundtrack</span></li>
 <li><span>Over 40 Levels Across 5 Unique Areas</span></li>
-</ul>"
+</ul>
+<p><i>The game is no longer available on the iOS store (due to costs), However I am able to show the game in person and may re release one day.</i></p>"
 completionDate: "September 2014"
 createdUsing: "Unity 3D, C#, Illustrator, Photoshop, Flash."
 whatIDid:

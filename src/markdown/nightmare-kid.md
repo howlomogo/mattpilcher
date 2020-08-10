@@ -7,11 +7,13 @@ description: "<p>Nightmare Kid is a fast paced addictive shooter where you can u
 
 <p>Earn gold coins by killing the monsters and spend them on useful power ups and perks that will allow you to reach later nights.</p>
 
-<p>How many nights can you survive?</p>"
+<p>How many nights can you survive?</p>
+
+<p><i>The game is no longer available on the iOS store (due to costs), However I am able to show the game in person and may re release one day.</i></p>"
 completionDate: "July 2013"
 createdUsing: "Starling, Flash, Actionscript, Photoshop, Illustrator."
 whatIDid:
- - "Creation of all gameplay features, artwork, animations and UI. Marketing of game."
+ - "Creation of all gameplay features, artwork, animations and UI. Marketing of game and integration of RevMob for advertising."
  - "Creation of character upgrade system and detailed enemy spawning system."
  - "Integrating and modifying assets (2D Toolkit, 2D Character Controller)."
  - "iOS Touch controls, Model Compatibility, Debugging and optimisation for iOS devices."
