@@ -78,13 +78,10 @@ class About extends Component {
                   My main skills are listed below and I use Javascript, HTML &amp; CSS on a daily basis.
                   The framework will depend on my current project and I particulary enjoy working with React &amp; Redux.
                   I have experience working with a few backend technologies as listed below, I am however predominantly looking for a front end focused position.
-
-
-                  I have worked with different front end technologies in the past including AngularJS, Wordpress and React  including AngularJS
                 </p>
 
                 <p className='mb-5 wow fadeIn' data-wow-duration='1s'>
-                  While programming I like to follow best practises and also enjoy keeping upto date with and learning new technologies and frameworks.
+                  While programming I like to follow best practises and also enjoy learning new technologies and frameworks.
                 </p>
               </div>
             </div>

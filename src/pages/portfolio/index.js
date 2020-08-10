@@ -27,7 +27,7 @@ class Portfolio extends Component {
                   Portfolio
                 </h2>
                 <hr className='hr-dashed--dark mb-3' />
-                <p className='mb-3'>Below is a selection of personal projects and independent games I have created.</p>
+                <p className='mb-3'>Below is a selection of personal projects and independent games I have created. Please feel free to also see my <a target='_blank' href='https://www.github.com/howlomogo'>Github</a> for other projects and code I've worked on.</p>
 
                 <hr className='hr-dashed--dark mb-3' />
 
