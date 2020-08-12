@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa356034.chunk.css",
-    "main.js": "/static/js/main.788f0437.chunk.js",
-    "main.js.map": "/static/js/main.788f0437.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cfc120ef.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cfc120ef.js.map",
-    "static/js/2.4dfa0ebf.chunk.js": "/static/js/2.4dfa0ebf.chunk.js",
-    "static/js/2.4dfa0ebf.chunk.js.map": "/static/js/2.4dfa0ebf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.18452b2371f672a94916653425a12f57.js": "/precache-manifest.18452b2371f672a94916653425a12f57.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.aa356034.chunk.css.map": "/static/css/main.aa356034.chunk.css.map",
-    "static/js/2.4dfa0ebf.chunk.js.LICENSE.txt": "/static/js/2.4dfa0ebf.chunk.js.LICENSE.txt"
+    "main.css": "/sites/game-of-thrones-social/static/css/main.aa356034.chunk.css",
+    "main.js": "/sites/game-of-thrones-social/static/js/main.85223f9b.chunk.js",
+    "main.js.map": "/sites/game-of-thrones-social/static/js/main.85223f9b.chunk.js.map",
+    "runtime-main.js": "/sites/game-of-thrones-social/static/js/runtime-main.4a038931.js",
+    "runtime-main.js.map": "/sites/game-of-thrones-social/static/js/runtime-main.4a038931.js.map",
+    "static/js/2.4dfa0ebf.chunk.js": "/sites/game-of-thrones-social/static/js/2.4dfa0ebf.chunk.js",
+    "static/js/2.4dfa0ebf.chunk.js.map": "/sites/game-of-thrones-social/static/js/2.4dfa0ebf.chunk.js.map",
+    "index.html": "/sites/game-of-thrones-social/index.html",
+    "precache-manifest.095ccca8d515f14e1363f83090db0454.js": "/sites/game-of-thrones-social/precache-manifest.095ccca8d515f14e1363f83090db0454.js",
+    "service-worker.js": "/sites/game-of-thrones-social/service-worker.js",
+    "static/css/main.aa356034.chunk.css.map": "/sites/game-of-thrones-social/static/css/main.aa356034.chunk.css.map",
+    "static/js/2.4dfa0ebf.chunk.js.LICENSE.txt": "/sites/game-of-thrones-social/static/js/2.4dfa0ebf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfc120ef.js",
+    "static/js/runtime-main.4a038931.js",
     "static/js/2.4dfa0ebf.chunk.js",
     "static/css/main.aa356034.chunk.css",
-    "static/js/main.788f0437.chunk.js"
+    "static/js/main.85223f9b.chunk.js"
   ]
 }
