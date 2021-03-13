@@ -1,5 +1,13 @@
 [
   {
+    "title": "Poke Proj",
+    "description": "App created which fetchs and displays Pokemon information. Created using React, tailwind, node, express, redis, heroku. (Work In Progress",
+    "image": "../images/portfolio/poke-proj-mockup.png",
+    "completionDate": "Feb 2021",
+    "hideTag": "games",
+    "link": "http://poke-proj.s3-website.eu-west-2.amazonaws.com/"
+  },
+  {
     "title": "Cottage Getaways",
     "description": "Website created for a fictitious holiday cottage website with searchable cottages. Created using AngularJS 1.6, Pug, Sass, Javascript, JQuery &amp; Bootstrap 4.",
     "image": "../images/portfolio/cottage-getaways-mockup.png",
